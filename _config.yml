@@ -1,6 +1,11 @@
 title: Macro Intelligence Briefs
-description: AI-generated daily macro intelligence briefs
+description: AI-generated daily macro intelligence briefs and company research reports
 theme: minima
 show_excerpts: false
 plugins:
   - jekyll-feed
+
+collections:
+  reports:
+    output: true
+    permalink: /reports/:title/
