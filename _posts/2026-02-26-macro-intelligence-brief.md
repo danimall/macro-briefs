@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Macro Intelligence Brief"
+title: "AI Infrastructure Validated While Enterprise Software Faces Structural Margin Squeeze"
 date: 2026-02-26
+excerpt: "NVDA's $200B revenue milestone and beat-plus-raise confirm $650B capex demand and reduce recession probability to 12-18%, but CRM's massive buyback signals enterprise SaaS faces a structural two-front margin squeeze regardless of AI investment decisions. Portfolio positioning prioritizes sector selection—favoring AI capex beneficiaries, geopolitical protection, and distress-exploitation plays over broad market direction bets."
 ---
 
 ## Executive Summary
