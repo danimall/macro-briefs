@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Macro Intelligence Brief"
+title: "Consumer Rotation Confirmed; Software Trapped Between AI Investment and Disruption Risk"
 date: 2026-02-25
+excerpt: "Twelve independent data points now confirm a specific consumer rotation from premium discretionary to value, with homeowners renovating while value-seekers trade down—the highest-confidence thesis in the series. Meanwhile, enterprise software faces a structural two-front squeeze: margin compression whether companies invest in AI or don't, creating a reflexive tightening loop that only companies with direct revenue-generating AI or non-discretionary spending can escape."
 ---
 
 ## Executive Summary
