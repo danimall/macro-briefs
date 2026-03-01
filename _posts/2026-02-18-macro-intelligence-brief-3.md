@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Macro Intelligence Brief #3"
+title: "Gold Recovery Validates Commodity Thesis as Multi-Asset Sovereign Hoarding Emerges"
 date: 2026-02-18
+excerpt: "Gold's swift recovery above $5,100 from the $4,900 correction we identified as a buying opportunity confirms the temporary nature of the pullback and validates NEM conviction; the underlying driver—central bank and government commodity stockpiling—is now broadening across agricultural and energy markets, strengthening the case for the broader \"long atoms\" industrial cycle recovery thesis."
 ---
 
 ## Executive Summary
