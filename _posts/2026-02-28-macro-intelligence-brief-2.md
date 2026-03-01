@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Macro Intelligence Brief #2"
+title: "Iran Military Strikes Trigger Energy Shock, End Rate-Cut Narrative"
 date: 2026-02-28
+excerpt: "Joint US-Israeli military operations on Iran have materialized the 15-20% tail risk into reality, catalyzing an oil price surge toward $100, eliminating Fed rate cut probability, and fundamentally reshaping sector leadership away from growth tech toward energy and defense equities. The conflict's potential extension into a broader Gulf regional crisis demands immediate portfolio rebalancing away from NVDA toward energy producers and additional defense exposure."
 ---
 
 ## Executive Summary
