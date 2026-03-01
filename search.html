@@ -1,0 +1,55 @@
+---
+layout: default
+title: Search
+---
+<div class="home">
+  <h2>Search Briefs</h2>
+  <input type="text" id="search-input" placeholder="Search by keyword..." style="width: 100%; padding: 8px; font-size: 16px; margin-bottom: 20px; box-sizing: border-box;">
+  <div id="search-results"></div>
+</div>
+
+<script>
+// Build search index from Jekyll posts data
+var posts = [
+  {% for post in site.posts %}
+  {
+    title: {{ post.title | jsonify }},
+    excerpt: {{ post.excerpt | strip_html | truncatewords: 50 | jsonify }},
+    url: {{ post.url | relative_url | jsonify }},
+    date: {{ post.date | date: "%B %-d, %Y" | jsonify }},
+    content: {{ post.content | strip_html | truncatewords: 200 | jsonify }}
+  }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+];
+
+var input = document.getElementById('search-input');
+var resultsDiv = document.getElementById('search-results');
+
+input.addEventListener('input', function() {
+  var query = this.value.toLowerCase().trim();
+  if (query.length < 2) {
+    resultsDiv.innerHTML = '';
+    return;
+  }
+  var matches = posts.filter(function(post) {
+    return post.title.toLowerCase().indexOf(query) !== -1 ||
+           post.content.toLowerCase().indexOf(query) !== -1 ||
+           post.excerpt.toLowerCase().indexOf(query) !== -1;
+  });
+  if (matches.length === 0) {
+    resultsDiv.innerHTML = '<p>No briefs found.</p>';
+    return;
+  }
+  var html = '<ul class="post-list">';
+  matches.forEach(function(post) {
+    html += '<li><a href="' + post.url + '">' + post.title + '</a>';
+    html += '<br><small>' + post.date + '</small>';
+    if (post.excerpt) {
+      html += '<p style="margin: 2px 0 8px 0; color: #555; font-size: 14px;">' + post.excerpt + '</p>';
+    }
+    html += '</li>';
+  });
+  html += '</ul>';
+  resultsDiv.innerHTML = html;
+});
+</script>
