@@ -10,9 +10,14 @@ layout: default
   {%- assign posts_by_date = site.posts | group_by_exp: "post", "post.date | date: '%B %-d, %Y'" -%}
   {%- for group in posts_by_date -%}
   <h3>{{ group.name }}</h3>
-  <ul>
+  <ul class="post-list">
     {%- for post in group.items -%}
-    <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      {%- if post.excerpt -%}
+        <p style="margin: 2px 0 8px 0; color: #555; font-size: 14px;">{{ post.excerpt | strip_html }}</p>
+      {%- endif -%}
+    </li>
     {%- endfor -%}
   </ul>
   {%- endfor -%}
