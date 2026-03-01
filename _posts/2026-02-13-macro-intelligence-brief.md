@@ -1,10 +1,8 @@
 ---
 layout: post
-title: "Macro Intelligence Brief — February 13, 2026"
+title: "Macro Intelligence Brief"
 date: 2026-02-13
 ---
-
-# Macro Intelligence Brief
 
 ## Executive Summary
 
