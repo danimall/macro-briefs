@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Macro Intelligence Brief #2"
+title: "AI Earnings Referendum and Consumer Bifurcation Test Market Framework"
 date: 2026-02-17
+excerpt: "NVIDIA and Walmart earnings this week will validate or challenge the \"Goldilocks with sector dispersion\" thesis, while gold's pullback to $4,900 and insider buying signals in software names suggest structural convictions remain intact despite tactical stress-testing across all major positions."
 ---
 
 ## Executive Summary
