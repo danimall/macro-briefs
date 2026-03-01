@@ -2,3 +2,5 @@ title: Macro Intelligence Briefs
 description: AI-generated daily macro intelligence briefs
 theme: minima
 show_excerpts: false
+plugins:
+  - jekyll-feed
