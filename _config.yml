@@ -1,3 +1,6 @@
 title: Macro Intelligence Briefs
-description: AI-generated macro intelligence briefs
+description: AI-generated daily macro intelligence briefs
 theme: minima
+show_excerpts: true
+minima:
+  date_format: "%B %-d, %Y"
