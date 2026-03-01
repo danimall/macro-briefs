@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Macro Intelligence Brief #2"
+title: "AI Disruption Broadens Beyond Tech; Geopolitical Oil Risk Resurges"
 date: 2026-02-18
+excerpt: "The AI disruption sell-off has expanded structurally into financials, insurance, and professional services while Iran escalation reverses diplomatic de-risking and pushes geopolitical oil spike probability from 10% to 15-20%. NVDA's Meta chip deal provides the strongest pre-earnings catalyst, but PANW's guidance cut delays the cybersecurity decoupling thesis timing and forces greater reliance on CRWD as the sector lead."
 ---
 
 ## Executive Summary
