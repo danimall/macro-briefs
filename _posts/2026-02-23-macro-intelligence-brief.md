@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Macro Intelligence Brief"
+title: "Tariff Restructuring and Iran Dual-Track Diplomacy Reshape Risk Landscape"
 date: 2026-02-23
+excerpt: "Trump's 15% flat-rate tariff structure paradoxically disadvantages US allies while reducing military action risk in Iran to 15-20% through resumed Geneva talks, yet simultaneous Russia-Iran missile cooperation introduces new escalation vectors. Meanwhile, contagion from private credit stress (Blue Owl) to AI infrastructure spending threatens demand assumptions ahead of NVDA earnings."
 ---
 
 ## Executive Summary
