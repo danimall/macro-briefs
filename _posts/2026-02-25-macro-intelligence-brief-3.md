@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Macro Intelligence Brief #3"
+title: "AI Infrastructure Demand Validated; Enterprise SaaS Faces Structural Squeeze"
 date: 2026-02-25
+excerpt: "NVDA's $200B revenue achievement and beat-plus-raise dramatically reduces recession probability to 12-18% while confirming real AI capex demand, but a five-point data series reveals enterprise SaaS faces a structural two-front squeeze with CRM's record $50B buyback signaling management's concession that organic growth cannot drive re-rating. Credit markets present the most uncomfortable risk configuration, with six institutional sources warning of record compression and a trillion-dollar data center bond pipeline creating structural upward pressure on long-end yields independent of Fed policy."
 ---
 
 ## Executive Summary
