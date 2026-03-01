@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Macro Intelligence Brief"
+title: "Iran Conflict Materializes: Stagflation Accelerates With Hormuz Disruption & AI Credit Cascade"
 date: 2026-03-01
+excerpt: "Khamenei's confirmed death and Hormuz oil flow disruption have escalated Iran conflict from tail risk to primary scenario, with oil supply constraints pushing toward $100+ and triggering stagflation endgame conditions that eliminate any Fed rate cuts and increase hike probability to 20-25%. Simultaneously, AI-driven workforce displacement is creating a direct credit cascade through leveraged software companies and CLO loans, raising credit deterioration probability to 28-33%."
 ---
 
 ## Executive Summary
