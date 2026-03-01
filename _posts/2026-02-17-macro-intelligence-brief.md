@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Macro Intelligence Brief"
+title: "Gold Breaks $5,100 as Commodity Supercycle Outpaces Projections"
 date: 2026-02-17
+excerpt: "Gold has surged past Goldman's $4,900 target to above $5,100, validating the \"long atoms\" barbell thesis and delivering dramatic free cash flow expansion for gold miners like Newmont, while a concurrent 20% software sector decline confirms the \"short software\" positioning in what represents the most pronounced sector divergence since the 2000 tech rotation."
 ---
 
 ## Executive Summary
