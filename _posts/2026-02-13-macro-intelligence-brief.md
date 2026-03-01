@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Macro Intelligence Brief"
+title: "AI Disruption Reshapes Software Markets While Real Economy Holds Steady"
 date: 2026-02-13
+excerpt: "The software sector faces fundamental repricing as AI agents become direct substitutes for SaaS products rather than productivity tools, while a neutral Fed and strong employment support the broader economy—creating a divergent \"short software, long atoms\" investment environment defined by AI disruption, geopolitical fragmentation, and repricing of real assets as strategic reserves."
 ---
 
 ## Executive Summary
