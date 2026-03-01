@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Macro Intelligence Brief #2"
+title: "Instability as the New Macro Regime: Tariffs, Stagflation, and Private Credit Contagion"
 date: 2026-02-23
+excerpt: "A convergence of tariff legal chaos, weakening growth data (Q4 GDP at 1.4%), persistent core inflation, and accelerating private credit stress has created the highest-uncertainty environment in 17 briefs, with NVDA earnings on Wednesday serving as a critical catalyst that could trigger broad portfolio repricing if it fails to meet inflated expectations."
 ---
 
 ## Executive Summary
