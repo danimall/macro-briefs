@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<div class="home">
+  <p>AI-generated daily macro intelligence briefs covering market-moving events, causal analysis, portfolio implications, and risk scenarios.</p>
+
+  <h2>Archive</h2>
+
+  {%- assign posts_by_date = site.posts | group_by_exp: "post", "post.date | date: '%B %-d, %Y'" -%}
+  {%- for group in posts_by_date -%}
+  <h3>{{ group.name }}</h3>
+  <ul>
+    {%- for post in group.items -%}
+    <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+    {%- endfor -%}
+  </ul>
+  {%- endfor -%}
+</div>
