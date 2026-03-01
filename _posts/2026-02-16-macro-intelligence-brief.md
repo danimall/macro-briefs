@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Macro Intelligence Brief"
+title: "Fed's Stealth QE and AI Disruption Repricing Reshape Risk Asset Calculus"
 date: 2026-02-16
+excerpt: "The Fed has quietly resumed quantitative easing through $60 billion in balance sheet expansion while maintaining rate guidance, creating a bullish configuration for risk assets through loosening financial conditions without inflation-fighting credibility loss. Simultaneously, the AI disruption repricing of software is broadening into consensus territory, and commodity stockpiling across gold, agriculture, and energy validates the \"long atoms\" thesis."
 ---
 
 ## Executive Summary
