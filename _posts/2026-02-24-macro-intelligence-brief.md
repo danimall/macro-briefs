@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Macro Intelligence Brief"
+title: "AI Infrastructure Spending Accelerates While Credit Conditions Deteriorate"
 date: 2026-02-24
+excerpt: "Hard data confirms housing-adjacent consumer strength and AI capex acceleration, but JPMorgan's CEO public caution combined with deteriorating financial conditions signals material economic headwinds ahead. The software sector's $200B+ selloff demonstrates AI disruption fears are transmitting into credit markets, marking a critical shift from sentiment to systemic risk."
 ---
 
 ## Executive Summary
