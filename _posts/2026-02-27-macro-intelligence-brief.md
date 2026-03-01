@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Macro Intelligence Brief"
+title: "Inflation Surge Reshapes Rate Expectations as AI Profitability Fractures"
 date: 2026-02-27
+excerpt: "Core PPI's 0.8% January spike significantly raises the odds of no Fed cuts in 2026 and triggers portfolio exits, while NVDA's beat contrasts sharply with CoreWeave's revenue miss, exposing deteriorating economics for AI infrastructure participants downstream from chip makers."
 ---
 
 ## Executive Summary
