@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Macro Intelligence Brief #2"
+title: "AI Disruption Triggers Regime Shift—Infrastructure Winners, SaaS Losers"
 date: 2026-02-13
+excerpt: "A structural repricing of software business models is underway as AI transitions from productivity tool to labor substitute, creating a two-tier market where infrastructure providers and AI-native platforms soar while traditional SaaS and IT services face secular decline. The Warsh Fed nomination combined with deflationary AI productivity gains creates the macro conditions for rate cuts and broad equity support, but with unprecedented dispersion between sector winners and losers."
 ---
 
 ## Executive Summary
