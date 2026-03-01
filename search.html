@@ -3,53 +3,66 @@ layout: default
 title: Search
 ---
 <div class="home">
-  <h2>Search Briefs</h2>
-  <input type="text" id="search-input" placeholder="Search by keyword..." style="width: 100%; padding: 8px; font-size: 16px; margin-bottom: 20px; box-sizing: border-box;">
+  <p><a href="/">&larr; Back to Home</a></p>
+
+  <h2>Search</h2>
+  <input type="text" id="search-input" placeholder="Search briefs and reports..." style="width: 100%; padding: 8px; font-size: 16px; margin-bottom: 20px; box-sizing: border-box;">
   <div id="search-results"></div>
 </div>
 
 <script>
-// Build search index from Jekyll posts data
-var posts = [
+var items = [
   {% for post in site.posts %}
   {
     title: {{ post.title | jsonify }},
     excerpt: {{ post.excerpt | strip_html | truncatewords: 50 | jsonify }},
     url: {{ post.url | relative_url | jsonify }},
     date: {{ post.date | date: "%B %-d, %Y" | jsonify }},
-    content: {{ post.content | strip_html | truncatewords: 200 | jsonify }}
-  }{% unless forloop.last %},{% endunless %}
+    content: {{ post.content | strip_html | truncatewords: 200 | jsonify }},
+    type: "brief"
+  },
+  {% endfor %}
+  {% for report in site.reports %}
+  {
+    title: {{ report.title | jsonify }},
+    excerpt: {{ report.excerpt | default: "" | strip_html | truncatewords: 50 | jsonify }},
+    url: {{ report.url | relative_url | jsonify }},
+    date: {{ report.date | date: "%B %-d, %Y" | jsonify }},
+    content: {{ report.content | strip_html | truncatewords: 200 | jsonify }},
+    type: "report"
+  },
   {% endfor %}
 ];
 
-var input = document.getElementById('search-input');
-var resultsDiv = document.getElementById('search-results');
+var input = document.getElementById("search-input");
+var resultsDiv = document.getElementById("search-results");
 
-input.addEventListener('input', function() {
+input.addEventListener("input", function() {
   var query = this.value.toLowerCase().trim();
   if (query.length < 2) {
-    resultsDiv.innerHTML = '';
+    resultsDiv.innerHTML = "";
     return;
   }
-  var matches = posts.filter(function(post) {
-    return post.title.toLowerCase().indexOf(query) !== -1 ||
-           post.content.toLowerCase().indexOf(query) !== -1 ||
-           post.excerpt.toLowerCase().indexOf(query) !== -1;
+  var matches = items.filter(function(item) {
+    return item.title.toLowerCase().indexOf(query) !== -1 ||
+           item.content.toLowerCase().indexOf(query) !== -1 ||
+           item.excerpt.toLowerCase().indexOf(query) !== -1;
   });
   if (matches.length === 0) {
-    resultsDiv.innerHTML = '<p>No briefs found.</p>';
+    resultsDiv.innerHTML = "<p>No results found.</p>";
     return;
   }
-  var html = '<ul class="post-list">';
-  matches.forEach(function(post) {
-    html += '<li><a href="' + post.url + '">' + post.title + '</a>';
-    html += '<br><small>' + post.date + '</small>';
-    if (post.excerpt) {
-      html += '<p style="margin: 2px 0 8px 0; color: #555; font-size: 14px;">' + post.excerpt + '</p>';
+  var html = "<ul class="post-list">";
+  matches.forEach(function(item) {
+    var badge = item.type === "report" ? " <small>[Report]</small>" : " <small>[Brief]</small>";
+    html += "<li><a href="" + item.url + "">" + item.title + "</a>" + badge;
+    html += "<br><small>" + item.date + "</small>";
+    if (item.excerpt) {
+      html += "<p style="margin: 2px 0 8px 0; color: #555; font-size: 14px;">" + item.excerpt + "</p>";
     }
-    html += '</li>';
+    html += "</li>";
   });
-  html += '</ul>';
+  html += "</ul>";
   resultsDiv.innerHTML = html;
 });
 </script>
