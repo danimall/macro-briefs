@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Macro Intelligence Brief"
+title: "Stagflation Confirmed as AI-Driven Workforce Displacement Reshapes Portfolio Risk"
 date: 2026-02-28
+excerpt: "Core inflation persists while growth weakens—a classic stagflationary environment—just as AI-driven layoffs become observable corporate behavior rewarded by markets, creating a bifurcated landscape where sector selection dominates returns and beneficiaries (commodities, defense, infrastructure) dramatically outperform victims (SaaS, outsourcing, discretionary)."
 ---
 
 ## Executive Summary
