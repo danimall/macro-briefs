@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Macro Intelligence Brief #2"
+title: "Fed Hawkish Pivot, Consumer Weakness, and Iran Escalation Converge"
 date: 2026-02-19
+excerpt: "The Fed's discussion of potential rate hikes combined with Walmart's guidance miss signals a shift from easing expectations to late-cycle stress, while simultaneous Iran military escalation creates a multi-front macro shock with limited policy buffers. If NVDA disappoints on top of consumer deceleration, both growth engines could stall simultaneously—the most dangerous outcome possible."
 ---
 
 ## Executive Summary
