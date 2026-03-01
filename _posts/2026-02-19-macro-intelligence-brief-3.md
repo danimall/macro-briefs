@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Macro Intelligence Brief #3"
+title: "Bifurcated Economy: AI Capex vs. Consumer Deterioration Determines Rate Path"
 date: 2026-02-19
+excerpt: "The macro regime has shifted from Goldilocks expectations to a binary outcome: either AI-driven capex sustains growth at higher rates, or consumer deterioration accelerates into recession (now 20% probability), with NVDA and PCE data points resolving which scenario unfolds. Coordinated institutional skepticism toward US large-cap tech, labor market contradictions, and three independent credit-stress signals suggest the market is pricing increasing downside risk despite record capex deployment."
 ---
 
 ## Executive Summary
