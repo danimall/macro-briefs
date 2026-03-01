@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Macro Intelligence Brief"
+title: "Tariff Ruling, GDP Miss, and Sticky Inflation Collide in New Macro Regime"
 date: 2026-02-20
+excerpt: "The Supreme Court's invalidation of Trump's tariff authority removes inflation pressure while GDP disappoints at 1.4%, creating maximum uncertainty for the Fed's rate path. Simultaneously, Blue Owl Capital emerges as the specific distressed entity in private credit markets, elevating credit cascade risk from pattern recognition to active concern."
 ---
 
 ## Executive Summary
