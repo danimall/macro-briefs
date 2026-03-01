@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Macro Intelligence Brief"
+title: "Fed's Rate-Hike Pivot and the AI Productivity Paradox"
 date: 2026-02-19
+excerpt: "The Fed's hawkish minutes introduced rate-hike scenarios previously thought dormant, while simultaneously revealing that AI-driven productivity gains could structurally raise neutral rates—creating a reflexive headwind for AI valuations even as their revenues grow. This regime shift, combined with rising Middle East tensions and emerging private-credit liquidity stress, reshapes portfolio positioning across equities, rates, and alternatives."
 ---
 
 ## Executive Summary
