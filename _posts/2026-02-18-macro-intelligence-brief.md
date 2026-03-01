@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Macro Intelligence Brief"
+title: "Physical Gold Surges While Bitcoin Crashes: Safe Haven Narrative Fractures"
 date: 2026-02-18
+excerpt: "Bitcoin's 50% collapse while gold hits $5,100 signals a permanent repricing of safe-haven assets, forcing a fundamental reassessment of crypto positioning and validating a \"long atoms, short software\" thesis despite the breakdown in QE-crypto correlations that underpinned prior conviction trades."
 ---
 
 ## Executive Summary
