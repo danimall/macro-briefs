@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Macro Intelligence Brief #2"
+title: "Software Two-Front Squeeze Goes Sector-Wide Amid Late-Cycle Credit Warnings"
 date: 2026-02-25
+excerpt: "Enterprise SaaS faces a confirmed sector-wide squeeze as CRM's revenue miss joins WDAY and others in signaling that defensive AI spending and margin pressure are structural rather than company-specific, while simultaneous warnings from Dimon, credit market data, and NATO defense commitments point to an intensifying late-cycle environment with emerging rate transmission risks."
 ---
 
 ## Executive Summary
