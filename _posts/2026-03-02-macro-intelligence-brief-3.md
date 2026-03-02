@@ -78,10 +78,8 @@ Trump's 4-5 week minimum signal and three US jets downed in Kuwait extend the ex
 
 | Market | Probability | Volume | Source | Notes |
 |--------|------------|--------|--------|-------|
-
 | Warsh as Fed Chair | 93.6% | $45.1M | Polymarket | Near-certain; tight bid-ask |
 | March 50bp cut | 0.55% | $79.6M | Polymarket | Perfect hold priced |
-
 | March 25bp hike | 0.55% | $69.6M | Polymarket | No change priced for March |
 | Shelton as Fed Chair | 3.8% | $103.4M | Polymarket | Distant second |
 
@@ -89,19 +87,14 @@ Trump's 4-5 week minimum signal and three US jets downed in Kuwait extend the ex
 
 | Market | Probability | Volume | Source | Notes |
 |--------|------------|--------|--------|-------|
-
 | Khamenei removed (Feb 28) | 99.85% | $104M | Polymarket | Confirmed, settled |
 | Iranian regime fall by Mar 31 | 16.85% | $14.9M | Polymarket | Down from 19.1% in prior brief |
-
 | Iranian regime fall by Jun 30 | 35.5% | $5.4M | Polymarket | Down from 37.5% |
 | Iranian regime fall by end 2026 | 50.5% | $7.2M | Polymarket | ~coin flip |
-
 | Hormuz closed by Mar 31 | 43.5% | $3.7M | Polymarket | **My estimate: 75-80% functional disruption** |
 | Hormuz closed by Jun 30 | 47.8% | $432K | Polymarket | Low volume, wide spread |
-
 | Hormuz closed before 2027 | 49.95% | $512K | Polymarket | Low volume |
 | China invades Taiwan by end 2026 | 10.45% | $10M | Polymarket | Elevated from ~5% pre-strikes |
-
 | Russia-Ukraine ceasefire Mar 31 | 3.5% | $21.6M | Polymarket | Very unlikely |
 | Russia-Ukraine ceasefire end 2026 | 37.5% | $10.9M | Polymarket | Moderate |
 
@@ -109,33 +102,26 @@ Trump's 4-5 week minimum signal and three US jets downed in Kuwait extend the ex
 
 | Market | Probability | Volume | Source | Notes |
 |--------|------------|--------|--------|-------|
-
 | Recession in 2026 | 23% | $427K | Kalshi | Aligns with my 22-28% |
 | Q1 2026 recession start | 11% | $61K | Kalshi | Wide bid-ask (0.07-0.11) |
-
 | NYSE circuit breaker before 2027 | 23% | $81K | Kalshi | Nontrivial tail risk |
 
 ### Inflation
 
 | Market | Probability | Volume | Source | Notes |
 |--------|------------|--------|--------|-------|
-
 | Feb CPI >2.2% | 96% | $36K | Kalshi | Near-certain |
 | Feb CPI >2.3% | 86% | $53K | Kalshi | High confidence |
-
 | Feb CPI >2.4% | 52% | $73K | Kalshi | Coin flip on February |
 | Feb CPI >2.5% | 12% | $48K | Kalshi | Low for February |
-
 | CPI max >3% in 2026 | 50% | $18K | Kalshi | **My estimate: 65-70%** |
 
 ### Unemployment
 
 | Market | Probability | Volume | Source | Notes |
 |--------|------------|--------|--------|-------|
-
 | Feb U-3 >4.1% | 95% | $29K | Kalshi | Near-certain |
 | Feb U-3 >4.2% | 81% | $31K | Kalshi | Consensus ~4.2-4.3% |
-
 | Feb U-3 >4.3% | 45% | $17K | Kalshi | Coin flip |
 | Feb U-3 >4.4% | 9% | $24K | Kalshi | Unlikely for February |
 
@@ -143,10 +129,8 @@ Trump's 4-5 week minimum signal and three US jets downed in Kuwait extend the ex
 
 | Market | Probability | Volume | Source | Notes |
 |--------|------------|--------|--------|-------|
-
 | Bitcoin reaches $70K in March | 99.95% | $1.7M | Polymarket | Already approaching $70K |
 | Bitcoin reaches $150K in March | 0.45% | $1.9M | Polymarket | Near-zero |
-
 | Bitcoin all-time high by Mar 31 | 0.45% | $2.1M | Polymarket | Near-zero |
 
 **Key Divergences:**
@@ -215,19 +199,14 @@ The Monday reversal's primary implication is for entry timing, not allocation st
 ## $10,000 Model Portfolio
 
 | Ticker | Company | Allocation ($) | Shares | Thesis |
-
 |--------|---------|---------------|--------|--------|
 | NEM | Newmont Corporation | $2,400 | 44 | Bonds failing safe-haven confirmed by three sources = structural gold reallocation; $5,400 gold; BofA raising Kinross target confirms sector-wide institutional upgrade; fourteen structural drivers |
-
 | LMT | Lockheed Martin | $1,600 | 3 | Active US military operations; 4-5 week minimum campaign; France nuclear deterrence = generational European rearmament; seven evidence streams across four continents |
 | RTX | RTX Corporation | $800 | 6 | Patriot systems deployed in theater; Pratt & Whitney maintenance revenue; munition restocking multi-year; diversified defense complement |
-
 | XOM | ExxonMobil | $800 | 7 | Dual oil-gas crisis from Hormuz disruption + Qatar LNG halt; integrated refining margin from gasoil/diesel premium; JPMorgan $120 scenario |
 | ACGL | Arch Capital Group | $1,100 | 17 | 0.38 beta provides portfolio stability; war-risk insurance repricing across aviation, shipping, infrastructure; Elliott MFS loss demonstrates credit risk spreading to sophisticated investors |
-
 | APO | Apollo Global Management | $1,000 | 7 | Twelve credit warnings including Dimon pre-2008 parallel; triple cascade mechanism; 16x vs BX 54x; Monday reversal means slow-grind accumulation, not gap-down entry |
 | DELL | Dell Technologies | $600 | 5 | Chip-agnostic AI server positioning at ~18x P/E; defense/government IT demand; minimal tech exposure through most defensible position |
-
 | JPM | JPMorgan Chase | $700 | 3 | Trading revenue surge from maximum volatility; Dimon's crisis positioning validated by explicit public warnings; credit expertise benefits from tightening |
 
 **No structural changes from Briefs #33, #35, #36.** The March 2 trading session produced nine confirming signals (gold $5,400, bonds failing safe-haven per FT, defense rally, energy surge, Dimon pre-2008 warning, BofA problem loans, European junk yields, Elliott MFS loss, Trump 4-5 week minimum) and one counter-signal (S&P 500 intraday reversal). The weight of evidence supports the existing allocation.
