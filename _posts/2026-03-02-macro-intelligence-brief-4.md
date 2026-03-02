@@ -55,48 +55,67 @@ MarketWatch now explicitly reports fertilizer stocks rising on Iran conflict sup
 ## Prediction Market Dashboard
 
 ### Federal Reserve
+
 | Market | Probability | Source | Notes |
 |--------|------------|--------|-------|
+
 | Warsh as Fed Chair | 93.6% | Polymarket | Near-certain; tight spread |
 | March 50bp cut | 0.55% | Polymarket | Perfect hold priced |
+
 | March 25bp hike | 0.55% | Polymarket | No change priced for March — aligns with my view |
 | Shelton as Fed Chair | 3.8% | Polymarket | Distant second |
 
 ### Geopolitical
+
 | Market | Probability | Source | Notes |
 |--------|------------|--------|-------|
+
 | Khamenei removed (Feb 28) | 99.85% | Polymarket | Confirmed, settled |
 | Iranian regime fall by Mar 31 | 16.95% | Polymarket | Stable; IRGC consolidating |
+
 | Iranian regime fall by Jun 30 | 35.5% | Polymarket | Unchanged from earlier today |
 | Iranian regime fall by end 2026 | 46.5% | Polymarket | Down from 50.5% earlier — **IRGC consolidation thesis strengthening** |
+
 | Hormuz closed by Mar 31 | 40% | Polymarket | Down from 43.5%; **MISPRICED LOW — my functional disruption estimate: 75-80%** |
 | Hormuz closed by Jun 30 | 43.9% | Polymarket | Low volume, wide spread |
+
 | Hormuz closed before 2027 | 50.2% | Polymarket | **MISPRICED LOW — my estimate: 75-80%** |
 | China invades Taiwan by end 2026 | 10.35% | Polymarket | Elevated from ~5% pre-strikes |
+
 | Russia-Ukraine ceasefire Mar 31 | 3.8% | Polymarket | Very unlikely |
 | Russia-Ukraine ceasefire end 2026 | 37.5% | Polymarket | Moderate |
 
 ### Recession
+
 | Market | Probability | Source | Notes |
 |--------|------------|--------|-------|
+
 | Recession in 2026 | 24% | Kalshi | Aligns with my 22-25% (narrowed from 22-28% due to tariff removal) |
 | Q1 2026 recession start | 11% | Kalshi | Wide bid-ask; low confidence |
+
 | NYSE circuit breaker before 2027 | 23% | Kalshi | Nontrivial; bid-ask 0.23-0.26 |
 
 ### Inflation
+
 | Market | Probability | Source | Notes |
 |--------|------------|--------|-------|
+
 | Feb CPI >2.2% | 96% | Kalshi | Near-certain |
 | Feb CPI >2.3% | 86% | Kalshi | High confidence |
+
 | Feb CPI >2.4% | 51% | Kalshi | Down 1pp from earlier — coin flip on February |
 | Feb CPI >2.5% | 12% | Kalshi | Low for February |
+
 | CPI max >3% in 2026 | 50% | Kalshi | **MISPRICED LOW — my estimate: 65-70%** |
 
 ### Unemployment
+
 | Market | Probability | Source | Notes |
 |--------|------------|--------|-------|
+
 | Feb U-3 >4.1% | 95% | Kalshi | Near-certain |
 | Feb U-3 >4.2% | 79% | Kalshi | Down from 81% earlier |
+
 | Feb U-3 >4.3% | 45% | Kalshi | Consensus ~4.2-4.3% |
 | Feb U-3 >4.4% | 9% | Kalshi | Unlikely for February |
 
@@ -156,14 +175,19 @@ The tariff removal and manufacturing data do not alter the core thesis. The 56% 
 ## $10,000 Model Portfolio
 
 | Ticker | Company | Allocation ($) | Shares | Thesis |
+
 |--------|---------|---------------|--------|--------|
 | NEM | Newmont Corporation | $2,400 | 44 | Bonds failing safe-haven confirmed by three sources = structural gold reallocation; $5,400 gold; BofA Kinross upgrade confirms sector-wide institutional bullishness |
+
 | LMT | Lockheed Martin | $1,600 | 3 | Active US military operations; France nuclear deterrence = generational European rearmament; HIMARS Hungary integration; seven evidence streams across four continents |
 | RTX | RTX Corporation | $800 | 6 | Patriot deployed in theater; Pratt & Whitney maintenance; munition restocking multi-year |
+
 | XOM | ExxonMobil | $800 | 7 | Dual oil-gas crisis; Hormuz disrupted; integrated refining margin from gasoil/diesel premium; JPMorgan $120 scenario; OPEC+ 137K bpd irrelevant vs. disruption scale |
 | ACGL | Arch Capital Group | $1,100 | 17 | 0.38 beta portfolio anchor; war-risk insurance repricing; Elliott MFS loss confirms credit risk spreading to sophisticated investors |
+
 | APO | Apollo Global Management | $1,000 | 7 | Twelve credit warnings; triple cascade mechanism; 16x vs BX 54x; Monday reversal means slow-grind accumulation |
 | DELL | Dell Technologies | $600 | 5 | Chip-agnostic AI server at ~18x P/E; defense/government IT demand; benefits from NVDA customer diversification (customers need server-level hardware regardless of chip choice) |
+
 | JPM | JPMorgan Chase | $700 | 3 | Trading revenue surge from maximum volatility; Dimon's crisis positioning validated; credit expertise benefits from tightening |
 
 **No changes from Briefs #35-37.** The tariff removal is positive at the margin but does not alter the portfolio's core thesis that the dual energy crisis compounds over quarters through margin degradation and consumer spending compression. The tariff ruling reduces one inflation channel but the three oil-gas-diesel channels dominate.
