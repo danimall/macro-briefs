@@ -139,19 +139,14 @@ France offering to deploy nuclear weapons across Europe for the first time is a 
 ## $10,000 Model Portfolio
 
 | Ticker | Company | Allocation ($) | Shares | Thesis |
-
 |--------|---------|---------------|--------|--------|
 | NEM | Newmont Corporation | $2,400 | 44 | Thirteen-plus structural gold drivers; $5,400 gold; bonds failing safe-haven role structurally redirects haven allocation to gold; FT confirms flight to gold over Treasuries |
-
 | LMT | Lockheed Martin | $1,600 | 3 | Active US military operations with Trump signaling 4-5 week minimum; France nuclear deterrence extends European procurement; six evidence streams + four-continent confirmation |
 | RTX | RTX Corporation | $800 | 6 | Patriot systems deployed in theater; Pratt & Whitney engine demand; munition restocking multi-year; diversified defense complement |
-
 | XOM | ExxonMobil | $800 | 7 | Dual oil-gas crisis; Hormuz disrupted; Qatar LNG halted; gasoil premium from Saudi refinery targeting; JPMorgan $120 oil scenario if sustained |
 | ACGL | Arch Capital Group | $1,100 | 17 | War-risk insurance repricing across aviation, shipping, infrastructure; 0.38 beta provides portfolio stability; Elliott MFS loss shows credit risk hitting even sophisticated investors |
-
 | APO | Apollo Global Management | $1,000 | 7 | Twelve credit warnings including Dimon pre-2008 parallel; triple cascade mechanism; 16x vs BX 54x; credit expertise positioned for repricing opportunity |
 | DELL | Dell Technologies | $600 | 5 | Chip-agnostic AI server positioning at ~18x P/E; defense/government IT demand; minimal tech exposure through most defensible position |
-
 | JPM | JPMorgan Chase | $700 | 3 | Trading revenue surge from maximum volatility; Dimon's crisis positioning; credit expertise benefits from tightening; M&A advisory pipeline when issuance reopens |
 
 **No changes from Briefs #33 and #35.** The Monday trading session provided one counter-signal (S&P 500 reversal) and nine confirming signals (gold $5,400, bonds failing, defense rally, energy surge, Dimon warning, BofA problem loans, European junk yields, Elliott loss, Trump 4-5 week timeline). The weight of evidence overwhelmingly supports the existing allocation.
