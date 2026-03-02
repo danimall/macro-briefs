@@ -1,0 +1,16 @@
+---
+layout: default
+title: Topics
+---
+<div class="home">
+  <p><a href="/">&larr; Back to Home</a></p>
+  <h2>Browse by Topic</h2>
+  {% for tag in site.tags %}
+  <h3 id="{{ tag[0] | slugify }}">{{ tag[0] }}</h3>
+  <ul>
+    {% for post in tag[1] %}
+    <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a> <small>{{ post.date | date: "%b %-d, %Y" }}</small></li>
+    {% endfor %}
+  </ul>
+  {% endfor %}
+</div>
