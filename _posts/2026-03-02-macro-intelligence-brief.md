@@ -128,14 +128,19 @@ The one new consideration: if XOM gaps up significantly on Monday (oil + refined
 ## $10,000 Model Portfolio
 
 | Ticker | Company | Allocation ($) | Shares | Thesis |
+
 |--------|---------|---------------|--------|--------|
 | NEM | Newmont Corporation | $2,400 | 44 | Thirteen-plus sources; gold $5,000+ with war premium expanding; stealth QE inflection point makes gold the primary safe haven as bonds fail; stagflation optimal |
+
 | LMT | Lockheed Martin | $1,600 | 3 | Active US military operations; three US jets downed confirms extended campaign; drone warfare extends procurement; six evidence streams at maximum density |
 | RTX | RTX Corporation | $800 | 6 | Patriot systems deployed in theater; Pratt & Whitney engine demand; munition restocking multi-year; diversified defense complement to LMT |
+
 | XOM | ExxonMobil | $800 | 7 | Dual oil-gas energy crisis from Hormuz closure + Qatar LNG halt; integrated refining margin from gasoil spike; US domestic production strategically critical |
 | ACGL | Arch Capital Group | $1,100 | 17 | 0.38 beta insulates from Monday selloff; war risk repricing across aviation, shipping, infrastructure boosts specialty premium; insurance investment income from higher-for-longer rates |
+
 | APO | Apollo Global Management | $1,000 | 7 | Triple credit cascade mechanism: oil + AI + bond market freeze; 16x vs BX 54x; disciplined underwriting positioned for credit repricing; near-term oversold creates entry |
 | DELL | Dell Technologies | $600 | 5 | Chip-agnostic AI server play at ~18x P/E; 20% dividend boost; defense/government IT demand; minimal tech exposure through most defensible position |
+
 | JPM | JPMorgan Chase | $700 | 3 | Trading revenue surge from maximum volatility week; credit expertise benefits from tightening conditions; M&A advisory pipeline when issuance reopens |
 
 **No changes from Brief #33.** Every new data point — Qatar LNG halt, Saudi refinery closure, three US jets downed, bond market freeze, bonds defying safe-haven playbook — validates the existing allocation. The stealth QE question adds nuance but doesn't change positioning: if background liquidity support is withdrawn to fight oil inflation (which the bond market counter-signal suggests), gold becomes the only reliable safe haven (NEM allocation justified). If stealth QE is maintained despite inflation, gold benefits from monetization expectations (NEM still justified). Gold wins in both scenarios.
