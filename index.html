@@ -15,6 +15,7 @@ layout: default
     {%- for post in group.items -%}
     <li>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <small style="color: #888;">{{ post.date | date: "%-I:%M %p" }}</small>
       {%- if post.excerpt -%}
         <p style="margin: 2px 0 8px 0; color: #555; font-size: 14px;">{{ post.excerpt | strip_html }}</p>
       {%- endif -%}
