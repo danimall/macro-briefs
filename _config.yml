@@ -9,3 +9,6 @@ collections:
   reports:
     output: true
     permalink: /reports/:title/
+  portfolios:
+    output: true
+    permalink: /portfolio/:title/
