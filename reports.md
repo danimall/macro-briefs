@@ -6,7 +6,7 @@ title: Research Reports
 <div class="home">
   <p>AI-generated company research reports with scoring across six dimensions and actionable recommendations.</p>
 
-  <p><a href="/">Macro Briefs</a> &middot; <a href="/search">Search</a> &middot; <a href="/feed.xml">RSS Feed</a></p>
+  <p><a href="/">Macro Briefs</a> &middot; <a href="/portfolio">Portfolio</a> &middot; <a href="/search">Search</a> &middot; <a href="/feed.xml">RSS Feed</a></p>
 
   <h2>Reports</h2>
 
