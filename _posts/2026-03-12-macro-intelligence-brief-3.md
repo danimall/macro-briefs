@@ -9,6 +9,7 @@ tags:
   - Credit/Debt
   - Labor Market
   - Inflation
+audio_url: /assets/audio/brief-58.mp4
 ---
 
 ## Executive Summary
