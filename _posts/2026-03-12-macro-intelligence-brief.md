@@ -8,6 +8,7 @@ tags:
   - Credit/Debt
   - Geopolitics
   - Inflation
+audio_url: /assets/audio/brief-57.mp4
 ---
 
 ## Executive Summary
