@@ -9,6 +9,7 @@ tags:
   - Geopolitics
   - Energy
 audio_url: /assets/audio/brief-57.mp4
+audio_url: /assets/audio/brief-57.mp4
 ---
 
 ## Executive Summary
