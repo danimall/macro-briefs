@@ -13,17 +13,17 @@ layout: default
     </p>
   </header>
 
-  {%% if page.audio_url %%}
+  {% if page.audio_url %}
   <div class="post-audio">
     <details open>
       <summary>Audio Overview</summary>
-      <audio controls preload="none" style="width:100%%; margin-top:8px;">
+      <audio controls preload="none" style="width:100%; margin-top:8px;">
         <source src="{{ page.audio_url | relative_url }}" type="audio/mp4">
         Your browser does not support the audio element.
       </audio>
     </details>
   </div>
-  {%% endif %%}
+  {% endif %}
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
