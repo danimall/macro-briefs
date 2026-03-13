@@ -8,6 +8,7 @@ tags:
   - Energy
   - Trade/Tariffs
   - Labor Market
+audio_url: /assets/audio/brief-59.mp4
 ---
 
 ## Executive Summary
