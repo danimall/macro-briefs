@@ -8,6 +8,7 @@ tags:
   - Energy
   - Central Banks
   - Inflation
+audio_url: /assets/audio/brief-62.mp4
 ---
 
 ## Executive Summary
