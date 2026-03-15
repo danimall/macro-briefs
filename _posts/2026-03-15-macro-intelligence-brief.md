@@ -8,6 +8,7 @@ tags:
   - Geopolitics
   - Energy
   - Labor Market
+audio_url: /assets/audio/brief-64.mp4
 ---
 
 ## Executive Summary
