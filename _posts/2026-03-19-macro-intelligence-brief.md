@@ -9,6 +9,7 @@ tags:
   - Geopolitics
   - Energy
   - Defense
+audio_url: /assets/audio/brief-71.mp4
 ---
 
 ## Executive Summary
