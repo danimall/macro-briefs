@@ -8,6 +8,7 @@ tags:
   - Energy
   - Credit/Debt
   - Defense
+audio_url: /assets/audio/brief-77.mp4
 ---
 
 *Generated: 2026-03-22*
