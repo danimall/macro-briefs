@@ -8,6 +8,7 @@ tags:
   - Energy
   - Credit/Debt
   - AI/Tech
+audio_url: /assets/audio/brief-79.mp4
 ---
 
 ## Executive Summary
