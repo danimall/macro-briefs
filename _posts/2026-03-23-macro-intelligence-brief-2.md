@@ -8,6 +8,7 @@ tags:
   - Energy
   - Credit/Debt
   - Defense
+audio_url: /assets/audio/brief-80.mp4
 ---
 
 ## Executive Summary
