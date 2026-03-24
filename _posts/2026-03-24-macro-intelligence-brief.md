@@ -8,6 +8,7 @@ tags:
   - Energy
   - Geopolitics
   - Earnings
+audio_url: /assets/audio/brief-81.mp4
 ---
 
 ## Executive Summary
