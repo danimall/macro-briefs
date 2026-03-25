@@ -3,100 +3,116 @@ layout: default
 title: "Track Record"
 ---
 
-*Last updated: March 17, 2026*
+*Last updated: March 25, 2026*
 
 # AI Investment System Calibration Document
 
 ## Track Record Summary
 
-**Overall Dataset:** 539 reports with follow-up return data (expanded from 521 in prior calibration).
+**Overall Dataset:** 829 reports with follow-up return data.
 
 | Recommendation | Count | Avg Return | Hit Rate (positive return) | Best | Worst |
 |---|---|---|---|---|---|
-| BUY | 115 | +2.45% | 61.7% | +33.22% | -16.85% |
-| HOLD | 415 | +1.48% | 60.7% | +33.92% | -23.19% |
-| AVOID | 9 | -0.20% | 33.3% | +33.56% | -26.88% |
+| BUY | 134 | +1.98% | 57.5% | +33.22% | -16.85% |
+| HOLD | 657 | +0.57% | 53.4% | +33.92% | -23.82% |
+| AVOID | 38 | +0.08% | 42.1% | +33.56% | -26.88% |
 
-**Score Predictiveness:** Top-third scored stocks returned +2.35% vs. +0.96% for bottom-third — a 1.38pp spread. This continues the deterioration trend: 3.23pp (n=120) → 1.52pp (n=521) → 1.38pp (n=539). The scoring system retains directional signal but is weaker than every prior estimate. The spread is likely converging toward its true value somewhere in the 1.2–1.5pp range. Scores work, but modestly. Do not over-rely on score magnitude as a signal of conviction quality.
+**Score Predictiveness:** Top-third scored stocks returned +1.86% vs. -0.22% for bottom-third — a 2.08pp spread. This is a notable reversal of the decay trend: 3.23pp (n=120) → 1.52pp (n=521) → 1.38pp (n=539) → 2.08pp (n=829). The rebound is likely attributable to the larger sample capturing more tail outcomes in the bottom third (which now averages negative), improving differentiation. Revised estimate of true spread: **1.5–2.1pp range.** The scoring system provides a genuine, durable signal. Bottom-third stocks now average negative returns — the score is more useful as a warning flag for low-scored stocks than previously estimated.
 
-**HOLD Dominance — Marginal Improvement:** 77.0% of all calls (415/539) are HOLD, down from 78.1% in the prior period. BUY issuance is 21.3% (115/539), up slightly. AVOID issuance rose to 1.7% (9/539) — nearly doubling from 5 to 9, but still catastrophically low against the target of 12-18%. At this pace, the system would need to issue ~65-97 AVOID calls per 539 to hit the floor of its target range. It issued 9. The distribution problem remains the system's single largest structural flaw.
+**Recommendation Distribution:** HOLD remains 79.3% of all calls (657/829), **worsening** from 77.0% (n=539) and 78.1% (n=521). BUY is 16.2% (134/829), **declining** from 21.3%. AVOID rose to 4.6% (38/829), a meaningful improvement from 1.7% (9/539) — roughly quadrupled in volume. Despite AVOID progress, distribution remains severely imbalanced. The system issued 29 new AVOID calls in the last 290 reports (~10.0% of the incremental batch), suggesting the AVOID directive is finally gaining traction in newer output. HOLD over-issuance and BUY under-issuance in the incremental batch (estimated ~6.6% BUY rate in new reports) are deeply concerning.
 
-**BUY Alpha Has Eroded:** BUY calls average +2.45% vs. HOLD at +1.48% — a 0.97pp spread, down from 1.24pp at n=521 and representing consistent decay across measurement periods. Simultaneously, BUY hit rate declined from 64.2% to 61.7%. The system is issuing slightly more BUYs (115 vs. 109) with lower precision and lower average return. **Roughly 4 in 10 BUY calls lose money.** This is not a strong signal — it is a weak-to-moderate signal that needs sharpening, not expansion.
+**BUY Signal Continues Eroding:** BUY average return fell from +2.45% (n=115) to +1.98% (n=134). Hit rate dropped from 61.7% to 57.5%. The BUY-over-HOLD spread is now 1.41pp (1.98% vs. 0.57%), which is actually slightly wider than the prior 0.97pp due to HOLD average collapsing from +1.48% to +0.57%. **The BUY signal's absolute quality declined, but its relative edge held because HOLD deteriorated even faster.** This suggests many marginal stocks that should have been BUY or AVOID were dumped into HOLD, dragging that bucket down. **42.5% of BUY calls lose money.** This must be stated plainly: nearly half of all BUY recommendations result in losses.
 
-**AVOID Calls — Modest Progress, Still Unreliable:** The expanded 9 AVOID calls average -0.20%, an improvement over the prior +0.06% at n=5. Hit rate is 33.3% (3 of 9 stocks declined). This means 6 of 9 AVOID calls saw the stock rise — two-thirds of AVOID calls were wrong directionally. However, the validated AVOIDs include a -26.9% (KLAR) and -16.2% (CPB), showing the system can identify true losers when it commits. The MRNA catastrophe (+33.6% on an AVOID) remains the worst single call in the dataset by opportunity cost. The core problem is dual: AVOIDs are too rare AND too inaccurate when issued.
+**AVOID: Volume Improved, Accuracy Still Poor:** 38 AVOID calls is a major increase from 9. Average return is +0.08% — essentially zero, meaning AVOID-tagged stocks went approximately nowhere on average. Hit rate is 42.1% (16 of 38 declined). **57.9% of AVOID calls saw the stock rise.** The system's AVOID mechanism remains unreliable directionally, though the near-zero average is dramatically better than the prior MRNA-contaminated data. The AVOID signal works for identifying stocks that underperform (avg +0.08% vs. +0.57% HOLD vs. +1.98% BUY) even when it doesn't correctly predict negative returns.
 
 ## Identified Biases
 
-### 1. Critical Under-Issuance of AVOID Recommendations (Unchanged — Severity: Existential)
-9 AVOID calls out of 539 reports (1.7%) is indefensible. The HOLD bucket contains stocks like NCLH (-23.2%, score 4.9), GPC (-20.5%, score 6.25), POOL (-18.9%, score 6.3), and ZBRA (-18.3%, score 6.6) — all rated HOLD, all delivered devastating losses. The system's revealed preference is to avoid reputational risk by defaulting to HOLD rather than making a falsifiable negative call. This must be treated as the primary failure mode.
+### 1. HOLD Over-Issuance Is Worsening, Not Improving (Severity: Critical)
+79.3% HOLD at n=829, up from 77.0% at n=539. Every calibration has flagged this. Every calibration has set targets (initially 40-45%, revised to 55-60%, then ≤65%). Every target has been violated. The HOLD bucket has become a dumping ground: its average return collapsed from +1.48% to +0.57%, and its hit rate dropped from 60.7% to 53.4%. This is mathematically consistent with a bucket absorbing both missed BUYs and missed AVOIDs. **HOLD is now barely a coin flip for positive returns.** The category is analytically meaningless at this concentration level.
 
-### 2. Consumer Discretionary BUY Calls Remain Destructive
-Consumer Discretionary BUYs average **-1.54%** across 11 calls — still the only sector with a negative BUY average at meaningful sample size. The prior calibration flagged this; the system did not correct. Failed names (NCLH -10.5%) confirm the pattern: the system overweights brand narrative and market positioning while underweighting cyclical sensitivity, consumer balance sheet stress, and margin vulnerability. Every Consumer Discretionary BUY call issued since this bias was identified represents a known, documented failure to implement calibration.
+### 2. BUY Issuance Collapsed Instead of Being Sharpened
+BUY dropped from 21.3% to 16.2% of calls. In the incremental ~290 reports, the estimated BUY rate was approximately 6.6% — meaning the system dramatically overcorrected on BUY caution instead of improving precision. Combined with a declining hit rate (57.5%), this suggests the system became more conservative without becoming more accurate. The sharpening directives (sector guardrails, valuation filters) may have suppressed good BUY calls alongside bad ones. **The system's BUY mechanism needs precision, not suppression.**
 
-### 3. High-Score Overconfidence on Cyclicals and Momentum Names
-APO (score 7.55 → -16.9%) remains the system's worst BUY by both absolute loss and irony: the highest-conviction BUY was the worst-performing BUY. DDOG (6.93 → -11.8%), NCLH (6.08 → -10.5%), and ADBE (6.75 → -9.6%) reinforce the pattern. APO appears twice in the loss list (-16.9% and -8.8% on separate calls at scores 7.55 and 7.35), meaning the system doubled down on a losing thesis. Repeated high-conviction BUY calls on the same losing stock is a critical overconfidence pattern that requires a structural block.
+### 3. Consumer Discretionary BUY Bias Persists
+Consumer Discretionary BUYs average **-1.54%** across 11 calls. Despite three consecutive calibrations flagging this and the most recent codifying a mandatory suspension, the sample count remains at 11 (unchanged or near-unchanged). If the suspension was implemented, this is a legacy data artifact. If new Consumer Discretionary BUYs were issued, the directive was violated. Either way, the -1.54% average on 11 calls is the only sector with a negative BUY average at meaningful sample size. The suspension must remain in force.
 
-### 4. HOLD Bucket Contains the System's Best Opportunities (Unchanged)
-COIN (+29.8%, HOLD), FIG (+29.9%, HOLD), KEYS (+33.9%, HOLD) — three of the five best-performing stocks in the entire dataset were rated HOLD. The system's largest alpha leak is not bad BUY calls but missed BUY calls languishing in the HOLD bucket. The "Why Not BUY?" gate proposed in the prior calibration was either not implemented or was ineffective.
+### 4. AVOID Contrarian Blind Spot Remains Active
+MRNA (AVOID, +33.6%) remains in the dataset. Among 38 AVOID calls, the best return was +33.56% — almost certainly still MRNA or a similar beaten-down name that rebounded. With 57.9% of AVOID calls rising, the system continues to conflate "bad company" with "will decline further." Validated AVOIDs (KLAR -26.9%, CPB -16.2%) remain structurally deteriorating names, confirming the prior finding: AVOID works for trajectory deterioration but fails for static weakness at depressed prices.
 
-### 5. AVOID Mechanism Has a Contrarian Blind Spot and a Precision Problem
-MRNA (AVOID, +33.6%) was a beaten-down name flagged AVOID near its bottom. Meanwhile, 6 of 9 AVOIDs rose in price. The system appears to issue AVOID on stocks it finds fundamentally unattractive without adequately considering whether negative sentiment is already fully priced. Conversely, validated AVOIDs (KLAR -26.9%, CPB -16.2%) tend to be names with genuine structural deterioration, not just poor fundamentals. **Lesson: AVOID should be reserved for deteriorating situations, not merely weak fundamentals at already-depressed prices.**
+### 5. High-Score Overconfidence on Momentum/Cyclicals (Confirmed)
+APO (7.55 → -16.9%, 7.35 → -8.8%) and DDOG (6.93 → -11.8%) remain the worst BUY losses. No new data contradicts the prior finding. The system overweights quality narratives for high-beta names without adequately discounting cyclical and multiple-compression risk.
 
-### 6. Score Predictiveness Continues to Weaken — Likely Structural
-The spread decay (3.23 → 1.52 → 1.38pp) across expanding samples suggests the scoring rubric systematically overweights stable, backward-looking quality factors (moat durability, management track record, balance sheet strength) relative to forward-looking factors (sentiment inflection, catalyst timing, positioning/flow dynamics, mean reversion). The score differentiates good companies from bad companies — but that differentiation is only weakly correlated with forward returns over the analysis horizon.
+### 6. HOLD Contains the Dataset's Best and Worst Outcomes
+HOLD range: +33.92% to -23.82%. The four best-returning stocks in the entire dataset include three HOLDs (COIN +29.8%, FIG +29.9%, KEYS +33.9%) and one HOLD at the very top (+33.92%). Two of the five worst calls are also HOLDs (GIS -23.8%, NCLH -23.2%). A recommendation category that spans +34% to -24% with a 53.4% hit rate is providing almost no useful information. The alpha is leaking from both ends simultaneously.
+
+### 7. Financials Concentration Risk in BUY Portfolio
+Financials represent 36.6% of all BUY calls (49/134) — more than double any other sector. While Financials BUYs average +1.42%, this is now **below** the overall BUY average of +1.98%. The prior calibration called Financials the system's "most reliable signal" at +2.33% across 35 calls. With 14 additional calls, the average has declined to +1.42%. The system's Financials expertise may have been a smaller-sample artifact, or overreliance led to less selective issuance. Either way, Financials BUYs are no longer outperforming the BUY average and should not be treated as the system's core competence.
 
 ## Lessons for Future Analysis
 
-### Recommendation Distribution (Revised Enforcement)
+### Recommendation Distribution (Revised — Enforced as Hard Rules)
 
-1. **Hard floor for AVOID: any stock scoring ≤4.8 must be AVOID.** The prior threshold of ≤5.0 was not implemented. Lowering to 4.8 as a non-negotiable floor. Any override must cite a specific, dated catalyst (e.g., "FDA decision on March 15 with 60%+ approval probability per analyst consensus") — not a general narrative.
+1. **HOLD ceiling: 65% absolute maximum.** Current 79.3% is unacceptable. For every batch of 20 reports, at least 7 must be non-HOLD. Any stock scoring ≤5.0 should carry a presumption of AVOID. Any stock scoring ≥6.5 with a specific catalyst should carry a presumption of BUY. HOLD is for genuinely ambiguous cases, not the default.
 
-2. **Hard ceiling on HOLD: no more than 65% of calls.** The prior target of ≤60% was ignored. Setting 65% as the absolute ceiling, with a stretch target of 60%. Any reporting period where HOLD exceeds 65% should trigger automated review.
+2. **AVOID floor: 10% minimum.** The incremental batch achieved ~10% AVOID rate. Lock this in as the permanent floor. Any stock scoring ≤4.8 must be AVOID with no override. Stocks scoring 4.8–5.2 require explicit justification to avoid AVOID classification.
 
-3. **BUY issuance target: 20-25%.** Current rate (21.3%) is within this range but precision is declining. Do not expand BUY issuance further until hit rate recovers above 65%.
+3. **BUY target: 20–25%.** The collapse to ~6.6% in the incremental batch overcorrected. BUY issuance must recover, but hit rate must improve above 60% before expanding beyond 25%. The goal is **selective aggression**, not blanket conservatism.
 
 ### Sector-Specific Rules
 
-4. **Consumer Discretionary: suspend BUY issuance unless three conditions are met simultaneously.** (a) Positive sequential same-store sales or comparable revenue growth, (b) FCF yield ≥5%, (c) consumer confidence index not in declining trend over trailing 3 months. This was recommended in the prior calibration and not enforced. It is now mandatory.
+4. **Consumer Discretionary BUY suspension remains mandatory.** Three prior calibrations have flagged this. The conditions for reinstatement remain: (a) positive sequential comparable revenue growth, (b) FCF yield ≥5%, (c) consumer confidence not in declining 3-month trend. All three must be met simultaneously and documented.
 
-5. **Lean aggressively into proven BUY sectors.** Utilities (+8.74%, 5 calls), Materials (+7.88%, 2 calls), Communication Services (+4.40%, 11 calls), Health Care (+3.48%, 9 calls), and Industrials (+2.78%, 11 calls) all outperform the BUY average. The system should actively seek BUY opportunities in these sectors rather than defaulting to HOLD. When analyzing stocks in these sectors, explicitly ask: "Does this warrant a BUY?"
+5. **Financials BUY calls: apply tighter selection.** Downgrade from "bread and butter" to "standard sector." Average return declined from +2.33% to +1.42% with expanded sample. The system over-indexed on Financials and should diversify BUY issuance. Cap Financials at ≤30% of BUY calls in any period.
 
-6. **IT BUY calls require valuation guardrails.** IT BUYs average only +1.44% across 22 calls — barely above the HOLD average of +1.48%. The IT BUY signal is essentially zero. Require FCF yield ≥3% or forward P/E below sector median for any IT BUY. High-multiple SaaS/cloud names (DDOG, WDAY, ADBE pattern) should carry a presumptive HOLD unless a discrete catalyst is identified with a timeline.
+6. **Prioritize BUY issuance in proven outperforming sectors.** Utilities (+8.74%, 5 calls), Materials (+7.88%, 2 calls), Communication Services (+4.40%, 11 calls), Health Care (+2.91%, 10 calls), Energy (+2.94%, 5 calls), and Industrials (+2.25%, 12 calls) all exceed the BUY average. Actively seek BUY candidates in these sectors. When reviewing a stock in these sectors, explicitly ask: "What would prevent this from being a BUY?"
+
+7. **IT BUY guardrails remain in force.** IT BUYs average +1.44% across 22 calls — below the BUY average and barely above HOLD. Require FCF yield ≥3% or forward P/E below sector median. High-multiple SaaS names carry a presumptive HOLD.
 
 ### Conviction and Scoring Rules
 
-7. **Cyclical score ceiling: 7.0 maximum.** No stock with beta >1.3 or in cyclically sensitive sectors (asset management, airlines, cruise lines, housing, commodities) may receive a score above 7.0 unless macro indicators (PMI >52, yield curve positive, unemployment stable/declining) are explicitly documented as supportive. APO at 7.55 was reckless.
+8. **Cyclical score ceiling of 7.0 remains in force.** No stock with beta >1.3 or in cyclically sensitive sectors may exceed 7.0 without explicit macro documentation.
 
-8. **No repeat high-conviction BUY on a losing name within 6 months.** APO was issued BUY twice (7.55 and 7.35), losing both times. If a BUY call results in a loss exceeding 5%, the system must wait at least 6 months and document what has materially changed before re-issuing BUY. "Doubling down" on a losing thesis is the system's single most embarrassing pattern.
+9. **No repeat BUY on a losing name within 6 months remains in force.** APO double-loss pattern must never recur.
 
-9. **Mandatory "Why Not BUY?" documentation for any HOLD scoring ≥6.2.** Lowered from 6.5 to capture more of the missed-BUY population (KEYS 6.25, GPC 6.25, POOL 6.3 were all in the 6.2-6.5 range). The documented reason must be specific and falsifiable, not "valuation appears full" or "limited near-term catalysts."
+10. **"Why Not BUY?" gate for HOLD scores ≥6.0.** Lowered from 6.2. The documented reason must cite a specific, falsifiable risk — not "valuation concerns" or "limited catalysts." If the analyst cannot articulate a specific, concrete risk, the call should be BUY.
+
+11. **"Why Not AVOID?" gate for HOLD scores ≤5.3.** New directive. Any HOLD scoring 5.3 or below must include explicit documentation of why AVOID is inappropriate. GIS (HOLD, 5.3, -23.8%) and NCLH (HOLD, 4.9, -23.2%) would have been caught by this gate.
 
 ### AVOID Calibration
 
-10. **Before issuing AVOID on any stock trading >30% below its 52-week high, require explicit contrarian rebound analysis.** Check: (a) short interest >15% of float (potential squeeze), (b) insider buying in trailing 90 days, (c) whether consensus estimates have already been cut ≥20% (negative priced in). If 2 of 3 conditions are met, default to HOLD, not AVOID. MRNA was the lesson. Do not repeat it.
+12. **Contrarian rebound analysis remains mandatory for stocks >30% below 52-week high.** Check: (a) short interest >15%, (b) insider buying in trailing 90 days, (c) consensus estimates already cut ≥20%. If 2 of 3 met, default to HOLD.
 
-11. **AVOID should target deteriorating trajectories, not static weakness.** Validated AVOIDs (KLAR -26.9%, CPB -16.2%, TSLA -3.0%) share a feature: worsening operational metrics or structural headwinds. Failed AVOIDs (MRNA +33.6%, CVNA — which has since rallied massively in the broader market) were cheap-for-a-reason names where the reason was already reflected in price. Score for trajectory, not level.
+13. **AVOID should target deteriorating trajectories, not cheap stocks.** Reiterated from prior calibration. Before issuing AVOID, answer: "Is this company getting worse, or is it merely bad?" AVOID only the former. Static weakness at depressed prices is a HOLD at worst, possibly a contrarian BUY.
+
+14. **Accept AVOID as a relative-underperformance signal.** AVOID stocks average +0.08% vs. +0.57% HOLD vs. +1.98% BUY. Even when AVOID stocks rise, they underperform. Frame AVOID as "this stock will underperform the opportunity set" rather than demanding it decline absolutely. This reframe may improve issuance confidence.
+
+### Score Interpretation
+
+15. **Bottom-third scores are now a genuine negative signal.** At -0.22% average return, the lowest-scored third of stocks actually loses money on average. Any stock in the bottom third of scores should face a strong presumption of AVOID. This is the single most actionable finding in the updated data: low scores predict negative returns.
+
+16. **Do not over-rely on score magnitude for high-score stocks.** The score works primarily by identifying losers (bottom third), not by differentiating among winners. Top-third (+1.86%) and mid-range returns are close enough that the score's upside differentiation is modest.
 
 ## Areas of Strength
 
-1. **BUY calls still generate positive alpha.** Even at a reduced 0.97pp spread over HOLD, across 115 calls this is a meaningful and consistent edge. The BUY mechanism works. The priority is sharpening it, not abandoning it.
+1. **Score predictiveness rebounded to 2.08pp spread.** The scoring system is more useful than the prior two calibrations suggested. Bottom-third stocks now average negative returns, making the score a genuine risk-management tool. This is the system's strongest analytical asset.
 
-2. **Sector expertise in Financials is the system's most reliable signal.** BUY average of +2.33% across 35 calls — the largest sample of any sector. This is a battle-tested competence. Financials BUY calls should be the system's bread and butter.
+2. **BUY still generates meaningful alpha over HOLD.** +1.98% vs. +0.57% is a 1.41pp spread. Across 134 calls, this represents durable outperformance. The mechanism works but needs higher precision (target >60% hit rate).
 
-3. **Utilities, Communication Services, Health Care, and Industrials BUYs are strong.** Ranging from +2.78% to +8.74% average returns. Small samples for some (Utilities 5, Materials 2), but the pattern is consistent enough to exploit more aggressively.
+3. **AVOID volume improved dramatically.** From 9 to 38 calls. The incremental batch ran ~10% AVOID rate, near the target floor. The system is learning to issue negative calls. Maintain and expand this progress.
 
-4. **DELL BUY (+33.2%, score 6.8) remains the model call.** Fundamental quality + secular catalyst (AI infrastructure) + reasonable entry valuation. This template — quality business at fair price with identifiable structural tailwind — should be the explicit checklist for every BUY.
+4. **AVOID identifies relative underperformers.** +0.08% average vs. +0.57% HOLD vs. +1.98% BUY. The ordering is correct and monotonic: BUY > HOLD > AVOID. The recommendation hierarchy is directionally sound even if AVOID's absolute hit rate (42.1%) is weak.
 
-5. **Downside containment on BUY is acceptable.** Only 5 of 115 BUY calls lost >5%. Median BUY loss is moderate. The system generally avoids catastrophic BUY errors. APO is the outlier, and structural fixes (cyclical ceiling, no-repeat rule) should prevent recurrence.
+5. **Downside containment on BUY is acceptable.** Worst BUY is -16.85%. Only 5 of 134 BUY calls lost >5%. Catastrophic BUY errors are rare. The system's risk management on the long side is solid.
 
-6. **AVOID accuracy is improving with sample size.** Moving from +0.06% average (n=5) to -0.20% (n=9) shows directionality. Validated AVOIDs (KLAR -26.9%, CPB -16.2%) demonstrate the system can identify true losers. The mechanism needs volume and precision, not replacement.
+6. **DELL (+33.2%, score 6.8) remains the model BUY call.** Quality business + secular catalyst + reasonable valuation. Continue using this as the BUY template.
 
-7. **Score remains directionally valid.** 1.38pp spread is real and durable. Top-third stocks outperform. The scoring framework is a sound foundation that needs supplementation with forward-looking factors, not overhaul.
+7. **Utilities, Materials, Communication Services, Energy, and Health Care BUYs are strong.** All above +2.9% average. These sectors represent proven competence areas and should be prioritized for BUY sourcing.
+
+8. **Validated AVOIDs demonstrate extreme downside capture.** KLAR (-26.9%), CPB (-16.2%) show the system can identify true structural losers. The AVOID mechanism's value lies in these high-conviction deterioration calls, not broad negative screening.
 
 ## Calibration Changelog
 
 | Date | Entry |
 |---|---|
 | 2025-01-27 | **Initial calibration created.** n=120. Key findings: HOLD over-issuance at 75%; IT BUY weakness at -1.95%; score spread 3.23pp. Target: 40-45% HOLD, 35% BUY, 20-25% AVOID. |
-| 2025-06-16 | **Major update.** n=521. Key findings: HOLD worsened to 78.1%; AVOID still broken at 1.0%; score spread compressed to 1.52pp; Consumer Discretionary replaced IT as worst BUY sector; APO (7.55) highest-score BUY was worst loss. Revised targets: 55-60% HOLD, 25-30% BUY, 12-18% AVOID. |
-| 2025-07-11 | **Incremental update.** n=539. Key findings: (1) BUY alpha eroded further to 0.97pp spread over HOLD (from 1.24pp), hit rate declined to 61.7% — ~4 in 10 BUY calls lose money; (2) AVOID sample doubled to 9 but still only 1.7% of calls, average improved to -0.20%; (3) Score predictiveness continued decay to 1.38pp — likely converging on true value near 1.2-1.5pp; (4) Consumer Discretionary BUY bias uncorrected despite prior flagging; (5) APO confirmed as repeat-offender overconfidence pattern (two losing BUY calls). **New/tightened directives:** AVOID floor lowered to score ≤4.8 (from ≤5.0); HOLD ceiling set at 65% (from 60%); IT BUY requires FCF yield ≥3% or below-median P/E; "Why Not BUY?" gate lowered to score ≥6.2 (from ≥6.5); no-repeat BUY rule on losing names within 6 months; contrarian rebound analysis mandatory for AVOID on stocks >30% below 52-week high. **Consumer Discretionary BUY suspension codified as mandatory, not advisory.** Distribution targets revised to: ≤65% HOLD, 20-25% BUY, ≥10% AVOID. Prior targets were aspirational and ignored; these are enforceable minimums/maximums. |
+| 2025-06-16 | **Major update.** n=521. Key findings: HOLD worsened to 78.1%; AVOID still broken at 1.0%; score spread compressed to 1.52pp; Consumer Discretionary replaced IT as worst BUY sector; APO (7.55) highest-score BUY was worst loss. Revised targets: 55-60% HOLD, 25-30% BUY, 12
