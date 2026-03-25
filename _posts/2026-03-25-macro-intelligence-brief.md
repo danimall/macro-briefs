@@ -8,6 +8,7 @@ tags:
   - Geopolitics
   - Energy
   - Defense
+audio_url: /assets/audio/brief-84.mp4
 ---
 
 *Generated: 2026-03-25*
