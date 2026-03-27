@@ -9,6 +9,7 @@ tags:
   - Geopolitics
   - Credit/Debt
   - Energy
+audio_url: /assets/audio/brief-88.mp4
 ---
 
 *Generated: 2026-03-27*
