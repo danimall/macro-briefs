@@ -8,6 +8,7 @@ tags:
   - AI/Tech
   - Regulation
   - Central Banks
+audio_url: /assets/audio/brief-93.mp4
 ---
 
 
