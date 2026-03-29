@@ -8,6 +8,7 @@ tags:
   - AI/Tech
   - Regulation
   - Earnings
+audio_url: /assets/audio/brief-92.mp4
 ---
 
 
