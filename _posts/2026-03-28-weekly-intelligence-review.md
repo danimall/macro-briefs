@@ -8,6 +8,7 @@ tags:
   - Energy
   - Credit/Debt
   - Inflation
+audio_url: /assets/audio/brief-91.mp4
 ---
 
 ## The Week's Story
