@@ -8,6 +8,7 @@ tags:
   - Energy
   - Credit/Debt
   - Inflation
+audio_url: /assets/audio/brief-96.mp4
 ---
 
 *Generated: 3/30/2026*
