@@ -8,6 +8,7 @@ tags:
   - Energy
   - Credit/Debt
   - Labor Market
+audio_url: /assets/audio/brief-99.mp4
 ---
 
 ## Executive Summary
