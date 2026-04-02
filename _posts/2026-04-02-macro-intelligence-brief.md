@@ -8,6 +8,7 @@ tags:
   - Geopolitics
   - Inflation
   - Central Banks
+audio_url: /assets/audio/brief-100.mp4
 ---
 
 ## Executive Summary
