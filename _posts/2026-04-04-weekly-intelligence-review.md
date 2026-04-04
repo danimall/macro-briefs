@@ -8,6 +8,7 @@ tags:
   - Energy
   - Central Banks
   - Credit/Debt
+audio_url: /assets/audio/brief-102.mp4
 ---
 
 # Weekly Intelligence Review: March 29 – April 4, 2026
