@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Weekly Review: War Narratives vs. Supply Physics; Rate Debate Floor Rises to "Hold vs. Hike"
+title: "Weekly Review: War Narratives vs. Supply Physics; Rate Debate Floor Rises to 'Hold vs. Hike"
 date: 2026-04-04 00:00:00
-excerpt: "Diplomatic peace signals reversed within 24 hours as physical supply disruptions proved immune to rhetoric, while Fed consensus shifted decisively from "cut vs. hold" to "hold vs. hike" on strong labor data and institutional validation, fundamentally reshaping the cost structure for floating-rate borrowers through 2026."
+excerpt: "Diplomatic peace signals reversed within 24 hours as physical supply disruptions proved immune to rhetoric, while Fed consensus shifted decisively from 'cut vs. hold' to 'hold vs. hike' on strong labor data and institutional validation, fundamentally reshaping the cost structure for floating-rate borrowers through 2026."
 tags:
   - Geopolitics
   - Energy
