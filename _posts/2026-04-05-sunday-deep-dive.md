@@ -8,6 +8,7 @@ tags:
   - AI/Tech
   - Regulation
   - Geopolitics
+audio_url: /assets/audio/brief-103.mp4
 ---
 
 
