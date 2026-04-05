@@ -8,6 +8,7 @@ tags:
   - Geopolitics
   - Inflation
   - Commodities
+audio_url: /assets/audio/brief-103.mp4
 ---
 
 
