@@ -8,6 +8,7 @@ tags:
   - Geopolitics
   - Central Banks
   - Energy
+audio_url: /assets/audio/brief-106.mp4
 ---
 
 ## Executive Summary
