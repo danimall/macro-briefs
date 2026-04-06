@@ -8,6 +8,7 @@ tags:
   - Energy
   - Credit/Debt
   - Commodities
+audio_url: /assets/audio/brief-104.mp4
 ---
 
 ## Executive Summary
