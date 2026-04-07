@@ -8,6 +8,7 @@ tags:
   - Energy
   - Credit/Debt
   - Inflation
+audio_url: /assets/audio/brief-108.mp4
 ---
 
 *April 7, 2026*
