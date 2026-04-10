@@ -8,6 +8,7 @@ tags:
   - Geopolitics
   - Energy
   - Inflation
+audio_url: /assets/audio/brief-113.mp4
 ---
 
 ## Executive Summary
