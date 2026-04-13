@@ -8,6 +8,7 @@ tags:
   - Energy
   - Trade/Tariffs
   - Inflation
+audio_url: /assets/audio/brief-115.mp4
 ---
 
 ## Executive Summary
