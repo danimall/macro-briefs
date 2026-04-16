@@ -10,6 +10,7 @@ tags:
   - Central Banks
   - Defense
   - Geopolitics
+audio_url: /assets/audio/brief-118.mp4
 ---
 
 ## Executive Summary
