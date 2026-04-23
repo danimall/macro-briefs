@@ -8,6 +8,7 @@ tags:
   - Energy
   - Earnings
   - Credit/Debt
+audio_url: /assets/audio/brief-129.mp4
 ---
 
 ## Executive Summary
