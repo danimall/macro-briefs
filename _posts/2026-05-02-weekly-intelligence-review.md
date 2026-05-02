@@ -9,6 +9,7 @@ tags:
   - Inflation
   - Central Banks
   - Credit/Debt
+audio_url: /assets/audio/brief-141.mp4
 ---
 
 
