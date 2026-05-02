@@ -8,6 +8,7 @@ tags:
   - Energy
   - Credit/Debt
   - Trade/Tariffs
+audio_url: /assets/audio/brief-140.mp4
 ---
 
 ## Executive Summary
