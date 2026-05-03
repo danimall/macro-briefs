@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Deep Dive: The Equity Risk Premium Paradox: When Perfection Prices In Fragility"
+title: "Deep Dive: The Disconnect: AI Earnings Mask Credit Stress and Valuation Risk"
 date: 2026-05-04 00:00:00
-excerpt: "The S&P 500 sits at all-time highs while institutional credit desks simultaneously buy record amounts of default protection, creating a dangerous disconnect where AI-driven earnings gains and mechanical flows mask deteriorating fundamentals in private credit, commercial real estate, and consumer balance sheets that historically precede equity corrections by 8-14 months."
+excerpt: "The S&P 500 sits at all-time highs despite an equity risk premium at generational lows, $125 oil, 3.2% core inflation, and record institutional credit protection buying—a divergence between equity complacency and credit market stress that historical precedent suggests resolves in equities' favor, likely within months."
 tags:
+  - Central Banks
   - Credit/Debt
-  - AI/Tech
   - Inflation
-  - Energy
+  - Earnings
 ---
 
 # The Great Disconnect: Why the Stock Market Is Ignoring $125 Oil, 3.2% Core PCE, and Record Credit Stress — And Whether It Can Last
