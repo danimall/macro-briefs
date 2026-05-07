@@ -8,6 +8,7 @@ tags:
   - Energy
   - Consumer
   - AI/Tech
+audio_url: /assets/audio/brief-148.mp4
 ---
 
 ## Executive Summary
