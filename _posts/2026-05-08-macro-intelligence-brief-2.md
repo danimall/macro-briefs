@@ -9,6 +9,7 @@ tags:
   - Credit/Debt
   - AI/Tech
   - Consumer
+audio_url: /assets/audio/brief-149.mp4
 ---
 
 ## Executive Summary
