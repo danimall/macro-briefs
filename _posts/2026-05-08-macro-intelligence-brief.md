@@ -8,6 +8,7 @@ tags:
   - Credit/Debt
   - Inflation
   - Energy
+audio_url: /assets/audio/brief-149.mp4
 ---
 
 ## Executive Summary
