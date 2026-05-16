@@ -8,6 +8,7 @@ tags:
   - Inflation
   - Credit/Debt
   - AI/Tech
+audio_url: /assets/audio/brief-158.mp4
 ---
 
 # Weekly Intelligence Review: May 10–16, 2026
