@@ -1,7 +1,13 @@
 ---
 layout: post
-title: "Weekly Intelligence Review"
+title: "Weekly Review: Hormuz Whipsaw, AI Bifurcation Confirmed, and the First Consumer Cliff Crack"
 date: 2026-05-31 00:00:00
+excerpt: "Discipline requiring physical verification before changing the energy base case was vindicated as the Hormuz reopening signal flipped 17 times, while AI infrastructure-vs-software bifurcation and consumer weakness both hardened from forecast to earnings-confirmed reality."
+tags:
+  - Energy
+  - AI/Tech
+  - Consumer
+  - Central Banks
 ---
 
 # Weekly Intelligence Review: May 25–31, 2026
