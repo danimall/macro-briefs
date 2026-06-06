@@ -8,6 +8,7 @@ tags:
   - Credit/Debt
   - Central Banks
   - Labor Market
+audio_url: /assets/audio/brief-189.mp4
 ---
 
 # Weekly Intelligence Review: June 1–6, 2026
