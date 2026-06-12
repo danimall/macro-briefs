@@ -8,6 +8,7 @@ tags:
   - Inflation
   - Geopolitics
   - AI/Tech
+audio_url: /assets/audio/brief-199.mp4
 ---
 
 ## Executive Summary
