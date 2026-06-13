@@ -8,6 +8,7 @@ tags:
   - Inflation
   - Credit/Debt
   - Energy
+audio_url: /assets/audio/brief-201.mp4
 ---
 
 # Weekly Intelligence Review: June 8–13, 2026
