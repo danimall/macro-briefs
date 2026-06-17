@@ -3,103 +3,70 @@ layout: default
 title: "Track Record"
 ---
 
-*Last updated: June 11, 2026*
+*Last updated: June 17, 2026*
 
 # AI Investment System Calibration Document
 
 ## Track Record Summary
 
-**Overall Dataset:** 4,695 reports with follow-up return data.
+**Overall Dataset:** 4,806 reports with follow-up return data.
 
-| Recommendation | Count | Avg Return | Hit Rate | Best | Worst |
+| Recommendation | Count | Avg Return | Hit Rate | ALPHA vs SPY | Beat-SPY Rate |
 |---|---|---|---|---|---|
-| BUY | 932 | +0.09% | 45.6% | +43.79% | -27.06% |
-| HOLD | 3,015 | -0.03% | 48.4% | +62.52% | -81.92% |
-| AVOID | 746 | -0.18% | 47.1% | +48.13% | -42.23% |
+| BUY | 935 | +0.09% | 45.7% | **−1.24pp** | 34.7% (n=932) |
+| HOLD | 3,112 | +0.02% | 48.5% | **−0.06pp** | 47.5% (n=3,051) |
+| AVOID | 757 | −0.09% | 47.4% | **−0.71pp** | 42.9% (n=748) |
 
-**Score Predictiveness:** Top-third scored stocks returned +0.30% vs. -0.31% for bottom-third — a **0.62pp spread.** This is a meaningful recovery from the 0.19pp nadir last cycle and approaches the 0.67pp seen on 2026-05-25. The scoring system has regained directional separation, though it remains weak in absolute terms.
+**Read this honestly: the raw ranking looks correct (BUY > HOLD > AVOID), but on alpha the picture inverts.** BUY's raw +0.09% is pure market beta — stripped of SPY, BUYs *underperform the index by 1.24pp* and beat SPY only 34.7% of the time. The system is not picking winners; it is riding a rising tape with a slightly worse-than-market basket. HOLD is the only category near alpha-neutral (−0.06pp). The "BUY edge" claimed in prior calibrations is an artifact of raw return in a bull market and should not be credited as skill.
 
-**Recommendation Distribution:** HOLD is 64.2% (3,015/4,695). BUY is 19.9% (932/4,695). AVOID is 15.9% (746/4,695). In the incremental ~652 reports since last calibration: ~39 new BUYs (~6.0%), ~517 new HOLDs (~79.3%), ~96 new AVOIDs (~14.7%). **BUY volume has dropped to ~6% incremental — at or below the 8–10% target, reflecting the mandated restraint. AVOID compliant at ~14.7%. HOLD floor exceeded at ~79%.** Volume directives are being followed aggressively.
+**Score Predictiveness — anti-predictive on alpha.** Top-third raw +0.31% vs bottom-third −0.29% (raw spread +0.61pp). But the **alpha spread is −2.03pp** (top −1.28pp vs bottom +0.75pp, n=3,134). The highest-scored names *underperform* SPY while the lowest-scored *beat* it. The raw spread is entirely market beta; on a beta-stripped basis the score sorts winners from losers in the *wrong direction*. This is the single most important finding in the dataset and it has persisted across cycles.
 
-**HIERARCHY HAS RE-ORDERED CORRECTLY — but BUY edge remains weak.** Current ordering: **BUY (+0.09%) > HOLD (-0.03%) > AVOID (-0.18%).** This is the *correct* directional ordering for the first time in several cycles — BUYs outperform HOLDs, which outperform AVOIDs. This is the most encouraging finding in this update. However, the magnitude of BUY edge (+0.09%) remains thin and hit rate (45.6%) is still below coin-flip.
+**Restraint vs. selection.** BUY volume remains compressed (935 of 4,806, 19.5% cumulative). Prior calibrations credited the "restored hierarchy" to this restraint. State plainly: restraint improved raw aggregates and contained downside (risk management), but it did **not** improve selection — alpha is still negative and the alpha spread still inverted. We got more selective; our selection did not get better.
 
-**BUY Signal: HIERARCHY RESTORED, EDGE STILL THIN.** Average return declined slightly from +0.13% to +0.09%, but BUY is now the *best* category rather than the worst. Hit rate ticked down to 45.6%. The aggressive restraint (only ~39 new BUYs) appears to have preserved relative ranking. The selection problem is not solved — it is contained by issuing fewer, more concentrated longs.
+**AVOID Recall — the unsolved weakness.** Of 217 names that fell >15%, the system flagged only **53 as AVOID (recall 24.4%)** — 164 were missed (31 rated BUY, 133 HOLD). Of 96 names that fell >20%, only **31 flagged (recall 32.3%)**, 65 missed. The negative average AVOID return (precision) says issued AVOIDs were reasonable calls; it says nothing about the ~75% of blow-ups we failed to flag at all. Better AVOIDs do not fix not issuing them. This is a distinct, unresolved failure.
 
-**AVOID Signal: CORRECTLY NEGATIVE AGAIN.** Average return flipped from +0.20% to **-0.18%** — the signal is once more directionally correct (AVOIDs falling on average). Hit rate 47.1%. The tightened gates requiring negative price momentum appear to be working. KLAR (4.53 → -26.9%) and CPB (4.6 → -16.2%) validate. Persistent false positives remain (RKLB 4.7 → +45.7%, BLMN 3.7 → +48.1%).
-
-**HOLD:** Average return -0.03%, hit rate 48.4% — highest hit rate of any category but now slightly negative on average. Catastrophic tail persists (CVNA -81.9%, PIPR -75.2%).
+**Survivorship Bias.** Of 3,367 snapshots old enough for follow-up, 7 (0.2%) lack one. The gap is non-uniform: AVOID 0.5% (3/552) vs BUY 0.1% (1/800). The worst AVOID outcomes (delistings/takeouts) are disproportionately absent, so the measured AVOID record modestly **understates** true AVOID signal. The −0.71pp AVOID alpha is a slight overstatement of AVOID weakness — but not enough to rescue the recall problem.
 
 ## Identified Biases
 
-### 1. BUY Edge Remains Thin Despite Correct Ranking (Severity: HIGH)
-BUY is the best category at +0.09% but hit rate is 45.6% — still below 50%. High-conviction BUYs continue to fail badly: DOCS (7.03 → -27.1%), BMI (7.06 → -20.6%), TRMB (6.8 → -19.7%), CALX (6.39 → -17.8%), APO (7.55 → -16.9%). Scores above 7.5 are not protective. The improved ranking is driven by restraint, not better selection.
+1. **Score is anti-predictive on alpha (CRITICAL).** Top-third names underperform SPY by 1.28pp; bottom-third beat by 0.75pp. The ranking engine is sorting backwards once beta is removed. High-conviction BUYs continue to crater: DOCS (7.03 → −27.1%), BMI (7.06 → −20.6%), TRMB (6.8 → −19.7%), APO (7.55 → −16.9%). Scores >7.5 are not protective.
 
-### 2. Consumer Discretionary BUY: CHRONIC FAILURE (Severity: CRITICAL)
-Consumer Discretionary BUYs: **-2.75% across 28 calls.** Count stable — prohibition respected. Maintain absolute prohibition.
+2. **BUY adds no selection alpha (CRITICAL).** −1.24pp average alpha, 34.7% beat-SPY rate. The book is riding the tape.
 
-### 3. Energy BUY: PERSISTENT CAPITAL DESTRUCTION (Severity: CRITICAL)
-Energy BUYs: **-1.59% across 145 calls** — ~3 new calls since last cycle, slowed but not stopped. Largest cumulative BUY-loss source by volume.
+3. **AVOID Recall ~24–32% (HIGH, unsolved).** The system misses three of every four large declines, parking them in HOLD (133 of 164 missed >−15% names).
 
-### 4. Materials BUY: STILL NEGATIVE (Severity: HIGH)
-Materials BUYs: **-1.59% across 15 calls.** No new violations this cycle. Maintain prohibition.
-
-### 5. Industrials BUY: STILL NEGATIVE (Severity: HIGH)
-Industrials BUYs: **-0.60% across 105 calls.** ~1 new call. Effective prohibition holding better.
-
-### 6. Financials Concentration Still Excessive (Severity: HIGH)
-Financials BUYs: **-0.41% across 280 calls** — ~8 new calls, slight worsening from -0.34%. 280 is 30.0% of all BUYs, triple the 8% cap. Zero edge, persistent over-allocation.
-
-### 7. AVOID Now Correctly Negative — Maintain Gates (Severity: RESOLVED → MONITOR)
-AVOID flipped to -0.18%. The negative-momentum gate is working. Continue monitoring; do not loosen.
-
-### 8. Score System Recovering (Severity: MODERATE — IMPROVING)
-Spread recovered to 0.62pp from 0.19pp. The model is regaining separation. Continue current valuation weighting; do not declare victory at one data point.
-
-### 9. HOLD Catastrophic Tail Risk (Severity: MODERATE)
-CVNA (-81.9%), PIPR (-75.2%), ADMA (-40.4%), PLAB (-35.1%). Impaired names still landing in HOLD rather than AVOID.
+4. **Sector alpha (judge on alpha, not raw):**
+   - Consumer Discretionary BUY: −2.75% raw, **−3.92pp alpha** (28 calls) — worst. Prohibition holds.
+   - Energy BUY: −1.59% raw, **−3.02pp alpha** (145 calls) — largest cumulative alpha sink.
+   - Materials: **−3.66pp alpha** (15). Industrials: **−2.05pp** (105). Financials: **−1.69pp** (280 calls, 30% of all BUYs — 3× cap).
+   - Health Care BUY: +1.12% raw but **−0.07pp alpha** (95) — essentially zero edge, NOT a validated alpha source. Prior elevation was beta.
+   - Communication Services: +0.03pp alpha (47) — neutral.
+   - **Information Technology: +1.83pp alpha** (131) — the only sector with a real positive edge. Semiconductors +0.16pp (12, thin).
 
 ## Lessons for Future Analysis
 
-1. **Restraint is working — maintain it.** The ranking restoration coincides with cutting BUY volume to ~6% incremental. Do not relax BUY discipline simply because hierarchy recovered.
-
-2. **BUY minimum score 8.0 system-wide; 8.5 outside IT/Comms — MAINTAIN.** APO (7.55 → -16.9%) and DOCS (7.03 → -27.1%) confirm 7.5 is inadequate. Require ALL of: (a) positive 90-day earnings revisions, (b) catalyst within 60 days, (c) bear-case downside ≤15%.
-
-3. **BUY volume target: 8–10%.** Current ~6% is acceptable; do not over-tighten to the point of starving IT alpha.
-
-4. **Concentrate BUYs in Information Technology.** IT BUY (+3.26%, 130 calls) remains the sole durable alpha source. Communication Services (+1.08%, 47 calls) and Health Care (+1.14%, 94 calls) are secondary permitted sectors. Note: Health Care has emerged as positive at meaningful sample size — elevate to permitted secondary.
-
-5. **Sector prohibitions (ABSOLUTE):** Consumer Discretionary, Materials. **Effective prohibition (score ≥8.5 + revisions + catalyst):** Energy, Industrials, Utilities, Real Estate.
-
-6. **Financials: HARD CAP 8% of BUYs, score ≥8.5.** Concentration must fall from 30.0%.
-
-7. **AVOID maximum score 4.0 + negative-momentum gate — MAINTAIN.** The gate restored correct directionality this cycle. RKLB and BLMN remain warnings against AVOIDing names showing strength.
-
-8. **AVOID volume: 12–15%, compliant at ~14.7%.** Maintain quality focus.
-
-9. **HOLD floor: 70% maintained; currently ~79%.** HOLD remains the honest default outside IT/Comms/Health Care.
-
-10. **HOLD tail screening mandatory:** flag >5x leverage, >50% revenue decline, going-concern language for AVOID re-evaluation. CVNA-class losses unacceptable in a neutral bucket.
+1. **Stop crediting raw BUY return as skill.** Until alpha turns positive at adequate n, treat the BUY book as beta-tracking. The fix is selection quality, not volume.
+2. **Concentrate BUYs in Information Technology — the sole positive-alpha sector (+1.83pp).** Demote Health Care and Comms to neutral/HOLD-default; their apparent edge was market beta.
+3. **Investigate the inverted alpha spread directly.** The valuation dimension scoring "cheap" names that underperform is the likely culprit; growth_prospects is the only positively-discriminating dimension. Down-weight valuation in the composite (pending engineering confirmation).
+4. **AVOID recall is the priority project.** Build screening to catch the 133 HOLD-rated names that fell >15% — momentum breakdown, insider selling clusters, premium valuation post-run-up (the PLAB/IBP profile). Going-concern language is high-precision/low-recall (~0.15%) and not a general tail detector.
+5. **MAINTAIN existing thresholds** (see Stability Protocol): BUY score floor 8.0/8.5, BUY volume 8–10%, Financials hard cap 8%, AVOID max score 4.0 + negative-momentum gate, HOLD floor 70%.
 
 ## Areas of Strength
 
-1. **Information Technology BUY: +3.26% across 130 calls** — the consistent, dominant alpha source across all cycles.
-2. **Health Care BUY: +1.14%, 94 calls** — now a validated secondary source at solid sample size.
-3. **Communication Services BUY: +1.08%, 47 calls** — durable.
-4. **Correct directional hierarchy restored:** BUY > HOLD > AVOID for the first time in several cycles.
-5. **AVOID signal corrected** to -0.18% — negative-momentum gate working.
-6. **Score spread recovered** to 0.62pp from 0.19pp.
-7. **BUY downside containment:** worst BUY -27.1% vs. HOLD -81.9%.
+1. **Information Technology BUY (+1.83pp alpha, 131 calls)** — the only durable, beta-stripped edge. Maintain concentration here.
+2. **Downside containment:** worst BUY −27.1% vs worst HOLD −40.4% — issued BUYs avoid the deepest holes.
+3. **AVOID precision:** issued AVOIDs average negative raw return; KLAR (−26.9%), CPB (−16.2%) validate. (Precision only — recall remains poor.)
+4. **HOLD is alpha-neutral (−0.06pp)** — an honest default that neither helps nor hurts.
 
 ## Calibration Changelog
 
 | Date | Entry |
 |---|---|
-| 2025-01-27 | Initial calibration. n=120. HOLD 75%, spread 3.23pp. |
-| 2025-06-16 | n=521. AVOID 1.0%, spread 1.52pp. |
-| 2025-08-18 | n=829. AVOID 4×. Spread 2.08pp. |
-| 2026-04-22 | n=1,576. AVOID collapsed. BUY at 61.1% hit rate. |
-| 2026-05-06 | BUY threshold lowered to 6.0. Catastrophic miscalibration. |
-| 2026-05-14 | EMERGENCY. n=2,758. Hierarchy inverted. May 6 reversed. |
-| 2026-05-25 | n=3,423. Hierarchy restored; BUY non-functional; spread 0.67pp. |
-| 2026-06-03 | n=4,043. Hierarchy RE-INVERTED — BUY worst. Spread collapsed to 0.19pp. BUY threshold raised to 8.0/8.5; volume cut to 8–10%; Financials cap 8%; AVOID negative-momentum gate added. |
-| 2026-06-11 | **UPDATE. n=4,695.** Key findings: **(1) HIERARCHY RE-ORDERED CORRECTLY — BUY (+0.09%) > HOLD (-0.03%) > AVOID (-0.18%) for the first time in several cycles.** (2) BUY edge remains THIN — avg +0.09%, hit rate 45.6% (still sub-coin-flip); restoration driven by restraint (~6% incremental BUYs), not better selection. (3) AVOID signal CORRECTED to -0.18% — negative-momentum gate working (KLAR -26.9%, CPB -16.2% validate). (4) Score spread RECOVERED to 0.62pp from 0.19pp — model regaining separation. (5) Health Care BUY (+1.14%, 94 calls) elevated to validated secondary alpha source alongside IT (+3.26%) and Comms (+1.08%). (6) Persistent failures: Consumer Discretionary (-2.75%, prohibition holding), Energy (-1.59%, ~3 violations), Materials (-1.59%, no new), Industrials (-0.60%), Financials (-0.41%, 30.0% concentration — still 3× cap). (7) High-conviction BUYs (scores 7.0–7.55) still producing -17% to -27% losses. **Primary directive: MAINTAIN current restraint — it restored correct ranking. Issue BUYs almost exclusively in IT/Health Care/Comms with score ≥8.0, confirmed catalyst, and contained downside. Do not relax discipline on the strength of a single recovered cycle — the underlying BUY selection edge remains thin. HOLD remains the honest default elsewhere. Maintain AVOID negative-momentum gate.** |
+| 2026-05-25 | n=3,423. Hierarchy restored; BUY non-functional; raw spread 0.67pp. |
+| 2026-06-03 | n=4,043. Hierarchy re-inverted. BUY threshold raised to 8.0/8.5; volume cut 8–10%; Financials cap 8%; AVOID negative-momentum gate added. |
+| 2026-06-11 | n=4,695. Raw hierarchy re-ordered BUY>HOLD>AVOID; credited restraint. Health Care elevated to secondary alpha source. |
+| **2026-06-17** | **UPDATE. n=4,806. ALPHA REFRAME — prior "recovery" was beta. Key findings: (1) On alpha, BUY is −1.24pp (34.7% beat-SPY) — NO selection edge; the +0.09% raw return is market beta. (2) Score is ANTI-PREDICTIVE on alpha: alpha spread −2.03pp (top −1.28pp, bottom +0.75pp) — ranking sorts backwards beta-stripped. (3) AVOID RECALL 24.4% (>−15%) / 32.3% (>−20%) — system misses ~75% of blow-ups, mostly into HOLD; precision ≠ recall. (4) Survivorship: AVOID gap 0.5% vs BUY 0.1% — measured AVOID record slightly understates true signal. (5) On alpha, only IT (+1.83pp) has a real edge; Health Care (−0.07pp) and Comms (+0.03pp) are neutral, NOT validated — prior elevation was beta. Consumer Disc (−3.92pp), Materials (−3.66pp), Energy (−3.02pp) confirmed alpha sinks. STABILITY: last change was 6 days ago (<30d). No qualifying distribution shift this cycle (n grew ~111, no alpha sign flip at adequate n). Therefore all thresholds HELD for stability — BUY floor 8.0/8.5, volume 8–10%, Financials cap 8%, AVOID gate, HOLD floor 70% unchanged. The reframe is a measurement correction, not a policy reversal. Primary directive: stop reading raw BUY return as skill; concentrate residual BUYs in IT; treat AVOID recall and the inverted alpha spread as the two open, unsolved problems.** |
+
+## Stability Protocol Note
+
+Last policy change: 2026-06-11 (6 days ago, <30d). No data-backed distribution shift qualifies a reversal this cycle: sample grew only ~111 names, no alpha sign flip at adequate n, single-cycle movements within noise. **All thresholds and prohibitions are MAINTAINED for stability.** This update changes *interpretation* (alpha-framed, recall-aware) — it does not flip any score floor, volume target, or sector rule. Any future down-weighting of the valuation dimension must be implemented as an engineering change with a documented data shift, not a threshold flip.
