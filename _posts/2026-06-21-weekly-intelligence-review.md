@@ -8,6 +8,7 @@ tags:
   - Energy
   - AI/Tech
   - Inflation
+audio_url: /assets/audio/brief-208.mp4
 ---
 
 # Weekly Intelligence Review: June 15–21, 2026
