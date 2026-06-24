@@ -8,6 +8,7 @@ tags:
   - Central Banks
   - Labor Market
   - Credit/Debt
+audio_url: /assets/audio/brief-213.mp4
 ---
 
 ## Executive Summary
