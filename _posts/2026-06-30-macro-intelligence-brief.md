@@ -8,6 +8,7 @@ tags:
   - AI/Tech
   - Regulation
   - Energy
+audio_url: /assets/audio/brief-224.mp4
 ---
 
 ## Executive Summary
