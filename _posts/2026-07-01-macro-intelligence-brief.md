@@ -8,6 +8,7 @@ tags:
   - Trade/Tariffs
   - Central Banks
   - Credit/Debt
+audio_url: /assets/audio/brief-226.mp4
 ---
 
 ## Executive Summary
