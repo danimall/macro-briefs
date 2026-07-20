@@ -8,6 +8,7 @@ tags:
   - Credit/Debt
   - Geopolitics
   - Energy
+audio_url: /assets/audio/brief-1197.mp4
 ---
 
 ## Executive Summary
