@@ -8,6 +8,7 @@ tags:
   - Geopolitics
   - AI/Tech
   - Central Banks
+audio_url: /assets/audio/brief-1198.mp4
 ---
 
 ## Executive Summary
