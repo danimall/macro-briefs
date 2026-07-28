@@ -8,6 +8,7 @@ tags:
   - Credit/Debt
   - Central Banks
   - Energy
+audio_url: /assets/audio/brief-1208.mp4
 ---
 
 ## Executive Summary
