@@ -8,6 +8,7 @@ tags:
   - Credit/Debt
   - AI/Tech
   - Geopolitics
+audio_url: /assets/audio/brief-1229.mp4
 ---
 
 ## Executive Summary
