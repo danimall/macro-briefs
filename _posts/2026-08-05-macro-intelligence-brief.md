@@ -8,6 +8,7 @@ tags:
   - Labor Market
   - AI/Tech
   - Credit/Debt
+audio_url: /assets/audio/brief-1234.mp4
 ---
 
 ## Executive Summary
