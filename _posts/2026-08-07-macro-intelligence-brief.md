@@ -2,6 +2,7 @@
 layout: post
 title: "Macro Intelligence Brief"
 date: 2026-08-07 08:47:10
+audio_url: /assets/audio/brief-1237.mp4
 ---
 
 ## Executive Summary
