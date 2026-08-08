@@ -8,6 +8,7 @@ tags:
   - Credit/Debt
   - Central Banks
   - Labor Market
+audio_url: /assets/audio/brief-1238.mp4
 ---
 
 # Weekly Intelligence Review: August 2–8, 2026
